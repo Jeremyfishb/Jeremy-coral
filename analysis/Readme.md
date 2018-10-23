@@ -60,6 +60,37 @@ Peptide and protein
 
 # Abacus
 
+Abacus was run on all coral samples to extract adjusted spectral counts to be used to visualize and quantify protein data between different experimental groups (e.g. inner, outer, bleached and non-bleached).
+
+Because Abacus attempts to grab all files in a directory, all interact-.pep.xml, interact-.prot.xml and the interact-COMBINED.prot.xml were comliled into this single directory:
+
+nexus1 /net/nunn/vol1/brook/2018_March_9_JPG_corals/All_coral_samples
+
+The Abacus parameters were also adjusted and added to the same directory, seen here:
+
+nexus1 /net/nunn/vol1/brook/2018_March_9_JPG_corals/All_coral_samples/Abacus_parameters.txt
+
+Then, the following command was used to run Abacus:
+
+java -Xmx16g -jar /net/pr/vol1/ProteomicsResource/bin/abacus.jar -p Abacus_parameters.txt
+
+The output was downloaded (not sure how) and can be found here:
+
+~/Desktop/JPG Lab/Proteomics March 2018/ABACUS_output.tsv
+
+A .csv was also generated (not sure how again) for use in R, and can be found here:
+
+~/Desktop/JPG Lab/Proteomics March 2018/JPG_corals_R_project/Abacus_output.csv
+
+
+
+
+
+
+
+
+
+
 
 
 
