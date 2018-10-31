@@ -1,4 +1,4 @@
-Mcapdata <- read.csv("Abacus_output_Mcap_Firstrun_inner_samples.csv",header = T,row.names = 1)
+Mcapdata <- read.csv("Abacus_output_outer.csv",header = T,row.names = 1)
 
 
 library(dplyr)
@@ -9,7 +9,7 @@ Mcap.spc2<-Mcap.spc[-1] #gets rid of first column(combined spec counts from all 
 
 #keep only proteins with at least 2 unique peptides
 nsaf.uniqpeps<-cbind(Mcap.adjnsaf, Mcap.pepsuniq$ALL_NUMPEPSUNIQ) #combines columns with total number of unique peps with adjnsaf)
-Mcap.2peps<-subset(nsaf.uniqpeps, select=X2018_MARCH_12_CORAL_JAA_23_ADJNSAF:X2018_MARCH_12_CORAL_JAA_44_ADJNSAF, nsaf.uniqpeps[,23]>1) #filters out 1 count peps
+Mcap.2peps<-subset(nsaf.uniqpeps, select=X2018_MARCH_12_CORAL_JAA_01_ADJNSAF:X2018_MARCH_12_CORAL_JAA_22_ADJNSAF, nsaf.uniqpeps[,21]>1) #filters out 1 count peps
 
 Mcap.coral.prot<-subset(Mcap.2peps, grepl(paste('lcl', collapse='|'), rownames(Mcap.2peps)))
 
@@ -102,14 +102,9 @@ Mcap.tra<-data.trans(Mcap.tra, method='log', plot=F)
 
 Mcap.nmds<-metaMDS(Mcap.tra, distance='bray', k=2, trymax=100, autotransform=F)
 
-ordiplot(Mcap.nmds, choices=c(1,2), type='text', display='sites', cex=0.5, main = "Mcap First Run Inner Samples") # end here makes rough plot- look for outliers(and remove),(normally would check replicates here)
-
+ordiplot(Mcap.nmds, choices=c(1,2), type='text', display='sites', cex=0.5, xlim = c(-.2,.2),
+         ylim= c(-.1,.1), main = "Outer samples") # end here makes rough plot- look for outliers(and remove),(normally would check replicates here)
 #?ordiplot
-
-
-
-
-#Mcap.nmds
 
 #fig1<-ordiplot(Mcap.nmds, choices=c(1,2), type='none', display='sites')
 
