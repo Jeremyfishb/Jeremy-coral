@@ -136,7 +136,15 @@ The figures were output here:
 
 And here there are:  
 
-!(bleached samples)
+
+
+!(bleached samples)[https://github.com/Jeremyfishb/Jeremy-coral/blob/master/scripts/R/figures_Abacus_analysis/all_good_samples.png]
+
+
+
+
+
+
 
 
 
