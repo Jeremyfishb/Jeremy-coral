@@ -148,6 +148,14 @@ And here there are:
 
 ![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/scripts/R/figures_Abacus_analysis/inner_samples.png)
 
+It looks like the most interesting comparison will be between inner and outer samples. As of yet, there does not appear to be any distinguishable patter between bleached and non-bleached samples.
+
+I need to talk to Brook about the inner sample figure where a warning message was generated when using the metaMDS function:
+
+*Warning message:
+In metaMDS(Mcap.tra, distance = "bray", k = 2, trymax = 100, autotransform = F) :
+  stress is (nearly) zero: you may have insufficient data*
+
 
 
 
