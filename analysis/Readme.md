@@ -79,7 +79,7 @@ These outputs (stored in the same directories as the input files-see above) open
 
 A list of peptide and protein counts for the samples can be found here:
 
-*Documents/GitHub/Jeremy-coral/data/protein\ counts.xlsx*
+*~/Documents/GitHub/Jeremy-coral/data/protein\ counts.xlsx*, or [here](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/data/protein%20counts.xlsx)
 
 
 
@@ -101,11 +101,11 @@ Then, the following command was used to run Abacus:
 
 The output was downloaded from the UW genome cluster (not sure how- need to ask Emma) and can be found here:
 
-*~/Desktop/JPG Lab/Proteomics March 2018/ABACUS_output.tsv*
+*~/Documents/GitHub/Jeremy-coral/data/ABACUS_output.tsv*, or [here](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/data/ABACUS_output.tsv)
 
 A .csv was also generated (not sure how again) for use in R, and can be found here:
 
-*~/Desktop/JPG Lab/Proteomics March 2018/JPG_corals_R_project/Abacus_output.csv*
+*~/Documents/GitHub/Jeremy-coral/data/Abacus_output.csv* or [here](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/data/Abacus_output.csv)
 
 
 #NMDS plots in R
@@ -118,21 +118,21 @@ To visually compare differences in protein expression between coral treatments (
 
 An initial set of analyses were run to QC some prep issues (see above). The r scripts, .csv files, and figures can all be found here: 
 
-*~/Documents/GitHub/Jeremy-coral/scripts/R/R_scripts_Abacus_analysis*
-*~/Documents/GitHub/Jeremy-coral/scripts/R/csv_files_Abacus_analysis*
-*~/Documents/GitHub/Jeremy-coral/scripts/R/figures_Abacus_analysis*
+*~/Documents/GitHub/Jeremy-coral/scripts/R/R_scripts_Abacus_analysis* [link](https://github.com/Jeremyfishb/Jeremy-coral/tree/master/scripts/R/R_scripts_Abacus_analysis)
+*~/Documents/GitHub/Jeremy-coral/scripts/R/csv_files_Abacus_analysis* [link](https://github.com/Jeremyfishb/Jeremy-coral/tree/master/scripts/R/csv_files_Abacus_analysis)
+*~/Documents/GitHub/Jeremy-coral/scripts/R/figures_Abacus_analysis* [link](https://github.com/Jeremyfishb/Jeremy-coral/tree/master/scripts/R/figures_Abacus_analysis)
 
 From these analysis, I was able to distill the data down to the best data, deciding to remove the duplicates with lower protein counts, the samples where the column degraded and keep the rerun samples. Also the incorrectly desalted samples seem OK. Sample 69B looks like an outlier but is kept with the newly named *all good samples* for now.
 
 From these *all good samples* data, I am starting to look for general differences between bleached and non-bleached, and inner and outer samples. The R project for these analysis can be found here:
 
-*~/Documents/GitHub/Jeremy-coral/scripts/R/R_project_Abacus_analysis*
+*~/Documents/GitHub/Jeremy-coral/scripts/R/R_project_Abacus_analysis* [link](https://github.com/Jeremyfishb/Jeremy-coral/tree/master/scripts/R/R_project_Abacus_analysis)
 
 In that directory is the R project, titled *R_project_Abacus_analysis* including the .csv files for all bleached, all non-bleached, all inner, all outer, and the original Abacus output.
 
 The figures were output here:
 
-*~/Documents/GitHub/Jeremy-coral/scripts/R/figures_Abacus_analysis*
+*~/Documents/GitHub/Jeremy-coral/scripts/R/figures_Abacus_analysis* [link](https://github.com/Jeremyfishb/Jeremy-coral/tree/master/scripts/R/figures_Abacus_analysis)
 
 And here there are:  
 
