@@ -19,7 +19,7 @@ Get access to a copy of the original data set. I will re-run .raw files with Com
 Well, I was told not to re-run any programs as Brook's data storage is becoming too full. Instead, for the last couple weeks I have reorganized my repo and then ran some R analyses with Abacus data to determine which comparisons between coral treatments seem the most warranted. I was also able to QC and distill my data down to what will be used for the ultimate analyses.
  
 
-For a draft of my project please see the readme.md file in the analysis directory. In short, here is what I produced:
+For a draft of my project please see the readme.md file in the analysis directory [link](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/analysis/Readme.md). In short, here is what I produced:
 
 
 ![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/scripts/R/figures_Abacus_analysis/all_good_samples.png)
