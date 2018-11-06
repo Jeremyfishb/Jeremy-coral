@@ -104,6 +104,34 @@ Mcap.nmds<-metaMDS(Mcap.tra, distance='bray', k=2, trymax=100, autotransform=F)
 
 ordiplot(Mcap.nmds, choices=c(1,2), type='text', display='sites', cex=0.5, xlim = c(-.2,.2),
          ylim= c(-.1,.1), main = "Bleached samples") # end here makes rough plot- look for outliers(and remove),(normally would check replicates here)
+
+
+library(MASS)
+
+plot(Mcap.nmds,type = 'n')
+text(Mcap.nmds,labels=names(Mcap.coral.prot))
+
+vec.prot<-envfit(Mcap.nmds$points, Mcap.tra, perm=1000)
+
+ordiplot(Mcap.nmds, choices = c(1, 2), type="text", display = "sites",
+         xlab="Axis 1", ylab="Axis 2", xlim = c(-0.2, 0.2), ylim = c(-0.25, 0.1),
+         main = "bleached samples")
+plot(vec.prot, p.max=.001, col="blue")
+
+Pvals <- vec.prot$vectors$pvals
+
+sig.prots001<- subset(Pvals,Pvals < 0.001)
+length(sig.prots001)
+write.csv(sig.prots001, file = "bleached_samples_sig_prots001")
+
+sig.prots01 <- subset(Pvals,Pvals < 0.01)
+length(sig.prots01)
+write.csv(sig.prots01, file = "bleached_samples_sig_prots01")
+
+
+
+
+
 #?ordiplot
 
 #fig1<-ordiplot(Mcap.nmds, choices=c(1,2), type='none', display='sites')

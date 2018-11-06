@@ -104,6 +104,33 @@ Mcap.nmds<-metaMDS(Mcap.tra, distance='bray', k=2, trymax=100, autotransform=F)
 
 ordiplot(Mcap.nmds, choices=c(1,2), type='text', display='sites', cex=0.5, xlim = c(-.2,.2),
          ylim= c(-.1,.1), main = "inner samples") # end here makes rough plot- look for outliers(and remove),(normally would check replicates here)
+
+
+library(MASS)
+
+plot(Mcap.nmds,type = 'n')
+text(Mcap.nmds,labels=names(Mcap.coral.prot)) #replotting data
+
+vec.prot<-envfit(Mcap.nmds$points, Mcap.tra, perm=1000) #calculate eigenvectors
+
+ordiplot(Mcap.nmds, choices = c(1, 2), type="text", display = "sites",
+         xlab="Axis 1", ylab="Axis 2", xlim = c(-0.05, 0.05), ylim = c(-0.05, 0.05),
+         main = "inner samples") #plot again
+plot(vec.prot, p.max=.001, col="blue") #plot eigenvectors 
+
+Pvals <- vec.prot$vectors$pvals #subset pvals from eigenvectors
+
+sig.prots001<- subset(Pvals,Pvals < 0.001) #subset pvals < 0.001
+length(sig.prots001) # how many?
+write.csv(sig.prots001, file = "inner_samples_sig_prots001") # save as text csv
+
+sig.prots01 <- subset(Pvals,Pvals < 0.01) #subset pvals < 0.01
+length(sig.prots01)
+write.csv(sig.prots01, file = "inner_samples_sig_prots01")
+
+
+
+
 #?ordiplot
 
 #fig1<-ordiplot(Mcap.nmds, choices=c(1,2), type='none', display='sites')
