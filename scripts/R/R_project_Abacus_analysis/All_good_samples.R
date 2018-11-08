@@ -128,13 +128,17 @@ length(sig.prots01)
 write.csv(sig.prots01, file = "all_samples_sig_prots01")
 
 
+fig1<-ordiplot(Mcap.nmds, choices=c(1,2), type='none', display='sites', main = "All samples by color")
+fig1
+
+col.vec  <-c("yellow","yellow","red","red","red","red","yellow","yellow","yellow","yellow","red","red","red",
+            "yellow","yellow","yellow","yellow","red","red","red","blue","orange","blue","orange","blue",
+            "blue","orange","orange","orange","orange","orange","blue","orange","blue","blue","blue","blue",
+            "orange","blue","orange")
 
 
 
-#?ordiplot
+points(fig1, 'sites', col='grey76', bg=col.vec, pch=21, cex=2)
 
-#fig1<-ordiplot(Mcap.nmds, choices=c(1,2), type='none', display='sites')
-
-#points(fig1, 'sites', col='grey76', bg=c(rep('seagreen3', 3), rep('orange', 3), rep('blueviolet', 3), rep('violetred3', 3)), pch=21, cex=2)
-
-#legend(0.05, -0.05, col=c('seagreen3', 'orange', 'blueviolet', 'violetred3'), pch=19, legend=c('Early Exp.', 'Late Exp.', 'Early Stat.', 'Late Stat.'))
+legend(0.15, 0.2, col=c('yellow', 'red', 'orange', 'blue'), pch=19, bty = "n",
+       legend=c('outer bleached', 'outer non-bleached', 'inner bleached', 'inner non-bleached'))
