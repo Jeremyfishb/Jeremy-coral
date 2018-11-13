@@ -119,17 +119,23 @@ ordiplot(Mcap.nmds, choices = c(1, 2), type="text", display = "sites",
          main = "non-bleached samples") #plot again
 plot(vec.prot, p.max=.001, col="blue") #plot eigenvectors 
 
-Pvals <- vec.prot$vectors$pvals #subset pvals from eigenvectors
 
-sig.prots001<- subset(Pvals,Pvals < 0.001) #subset pvals < 0.001
-length(sig.prots001) # how many?
+#only significant pvalues
+#shortcutting vec.prot$vectors
+A <- as.list(vec.prot$vectors)
+#creating the dataframe
+pvals<-as.data.frame(A$pvals)
+arrows<-as.data.frame(A$arrows)
+C<-cbind(arrows, pvals)
+names(C)
+
+sig.prots001 <- subset(C, A$pvals < 0.001)
+names(sig.prots001)
 write.csv(sig.prots001, file = "non-bleached_samples_sig_prots001") # save as text csv
 
-sig.prots01 <- subset(Pvals,Pvals < 0.01) #subset pvals < 0.01
-length(sig.prots01)
+sig.prots01 <- subset(C, A$pvals < 0.01)
+names(sig.prots01)
 write.csv(sig.prots01, file = "non-bleached_samples_sig_prots01")
-
-
 
 #?ordiplot
 

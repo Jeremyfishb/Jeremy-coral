@@ -3,6 +3,7 @@ Mcapdata <- read.csv("Abacus_output_Mcap_allgoodsamples.csv",header = T,row.name
 
 library(dplyr)
 Mcap.pepsuniq<-select(Mcapdata, contains('NUMPEPSUNIQ')) #subset of unique peptides 
+
 Mcap.adjnsaf<-select(Mcapdata, contains('ADJNSAF')) #subset of adjnsaf
 Mcap.spc<-select(Mcapdata, contains('NUMSPECSTOT')) 
 Mcap.spc2<-Mcap.spc[-1] #gets rid of first column(combined spec counts from all samples)
@@ -117,16 +118,23 @@ ordiplot(Mcap.nmds, choices = c(1, 2), type="text", display = "sites",
          main = "all samples") #plot again
 plot(vec.prot, p.max=.001, col="blue") #plot eigenvectors 
 
-Pvals <- vec.prot$vectors$pvals #subset pvals from eigenvectors
 
-sig.prots001<- subset(Pvals,Pvals < 0.001) #subset pvals < 0.001
-length(sig.prots001) # how many?
+#only significant pvalues
+#shortcutting vec.prot$vectors
+A <- as.list(vec.prot$vectors)
+#creating the dataframe
+pvals<-as.data.frame(A$pvals)
+arrows<-as.data.frame(A$arrows)
+C<-cbind(arrows, pvals)
+names(C)
+
+sig.prots001 <- subset(C, A$pvals < 0.001)
+names(sig.prots001)
 write.csv(sig.prots001, file = "all_samples_sig_prots001") # save as text csv
 
-sig.prots01 <- subset(Pvals,Pvals < 0.01) #subset pvals < 0.01
-length(sig.prots01)
+sig.prots01 <- subset(C, A$pvals < 0.01)
+names(sig.prots01)
 write.csv(sig.prots01, file = "all_samples_sig_prots01")
-
 
 fig1<-ordiplot(Mcap.nmds, choices=c(1,2), type='none', display='sites', main = "All samples by color")
 fig1
