@@ -156,6 +156,46 @@ I need to talk to Brook about the inner sample figure where a warning message wa
 In metaMDS(Mcap.tra, distance = "bray", k = 2, trymax = 100, autotransform = F) :
   stress is (nearly) zero: you may have insufficient data*
 
+#Eignevectors
+
+Eigenvectors help show which proteins are driving the differences between cluster groups in the nmds plots. They were calculated in R using the envfit function in the vegan package. To see the code used to produce this, scroll towards the bottom of any of the R scripts for inner, outer, bleached or non-bleached [here](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/scripts/R/R_project_Abacus_analysis/Abacus_data_exploration.Rproj).
+
+Eigenvectors were displayed visually on nmds plots [here](https://github.com/Jeremyfishb/Jeremy-coral/tree/master/scripts/R/figures_Abacus_analysis). It is difficult to tell which proteins are represented on the plots, so lists of significant eigenvectors were made as .txt files at < 0.01 p-values and < 0.001 p-values, found [here](https://github.com/Jeremyfishb/Jeremy-coral/tree/master/analysis/Eigenvectors%20with%20coordinates).
+
+As there was a clear x-axis division between inner and out samples, the eigenvector lists will be used to identify the proteins pulling the cluster grouping towards the inner samples (right, positive values) and outer samples (left, negative values).
+
+
+#Qspec
+
+Qspec is another way to determine significant protein differences between treatment groups. It takes the number of unique proteins found in each sample from two treatments, a control and a treatment, and compares them giving a list of significantly up-regulated proteins in the treatment group. For these analyses, non-bleached or outer tissue were the controls and bleached or inner tissues were the treatments. 
+
+The format for qspec input files was followed using these [instructions](http://www.nesvilab.org/qspec.php/), based on files generated from the Abacus output and the same R scripts found [here](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/scripts/R/R_project_Abacus_analysis/Abacus_data_exploration.Rproj).
+
+Those files were saved in this repository [here](https://github.com/Jeremyfishb/Jeremy-coral/tree/master/analysis/qspec) and this directory in the UWPR GS cluster:
+
+*nexus1 /net/nunn/vol1/jeremy/2018_March_9_JPG_corals/qspec*
+
+
+Qspec was ran in Putty through the tephra node of the UWPR genome sciences cluster by navigating to the directory shown above and using these command line prompts:
+
+**ssh tephra**
+
+**qspec-param Mcap_inner_spec_counts_for_qspec.txt 2000 10000 0> cat Mcap_inner_spec_counts_for_qspec.txt_qspec**
+
+**qspec-param Mcap_outer_spec_counts_for_qspec.txt 2000 10000 0**
+
+**qspec-param Mcap_bleached_spec_counts_for_qspec.txt 2000 10000 0**
+
+**qspec-param Mcap_non_bleached_spec_counts_for_qspec.txt 2000 10000 0**
+
+The output files end with the suffix .txt_qspec and are found [here](https://github.com/Jeremyfishb/Jeremy-coral/tree/master/analysis/qspec)
+
+
+
+
+
+
+
 
 
 
