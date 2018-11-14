@@ -15,12 +15,14 @@ Mcap.coral.prot<-subset(Mcap.2peps, grepl(paste('lcl', collapse='|'), rownames(M
 
 
 #make file for qspec (web base tool to find differential proteins)
-#spc.uniqpeps<-cbind(rpom.spc2, rpom.pepsuniq$ALL_NUMPEPSUNIQ) 
-#rpom.spc2peps<-subset(spc.uniqpeps, select=X2013_JULY_15_FAUX_23_NUMSPECSTOT:X2013_JULY_15_FAUX_37_NUMSPECSTOT, spc.uniqpeps[,13]>1)
-#prot.len<-subset(abacus, select=PROTLEN)
-#rpom.qspec<-merge(x=rpom.spc2peps, y=prot.len, by='row.names', all.x=T)
-#write.csv(rpom.qspec, 'spec counts for qspec.csv')
+spc.uniqpeps<-cbind(Mcap.spc2, Mcap.pepsuniq$ALL_NUMPEPSUNIQ) 
+Mcap.spc2peps<-subset(spc.uniqpeps, select=X2018_MARCH_12_CORAL_JAA_23_NUMSPECSTOT:X2018_MARCH_22_JPG_CORAL_19_NUMSPECSTOT, spc.uniqpeps[,21]>1)
+prot.len<-subset(Mcapdata, select=PROTLEN)
+Mcap.qspec<-merge(x=Mcap.spc2peps, y=prot.len, by='row.names', all.x=T)
+write.csv(Mcap.qspec, 'Mcap_inner_spec_counts_for_qspec.csv')
 
+
+#Match sample names to MS sample IDs
 names(Mcap.coral.prot)[names(Mcap.coral.prot)=='X2018_MARCH_12_CORAL_JAA_01_ADJNSAF']<-'41BO'
 names(Mcap.coral.prot)[names(Mcap.coral.prot)=='X2018_MARCH_12_CORAL_JAA_02_ADJNSAF']<-'74B2O'
 names(Mcap.coral.prot)[names(Mcap.coral.prot)=='X2018_MARCH_12_CORAL_JAA_03_ADJNSAF']<-'65BO'

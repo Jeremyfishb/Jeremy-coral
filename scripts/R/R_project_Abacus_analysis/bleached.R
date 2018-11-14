@@ -13,6 +13,12 @@ Mcap.2peps<-subset(nsaf.uniqpeps, select=X2018_MARCH_12_CORAL_JAA_01_ADJNSAF:X20
 
 Mcap.coral.prot<-subset(Mcap.2peps, grepl(paste('lcl', collapse='|'), rownames(Mcap.2peps)))
 
+#make file for qspec (web base tool to find differential proteins)
+spc.uniqpeps<-cbind(Mcap.spc2, Mcap.pepsuniq$ALL_NUMPEPSUNIQ) 
+Mcap.spc2peps<-subset(spc.uniqpeps, select=X2018_MARCH_12_CORAL_JAA_01_NUMSPECSTOT:X2018_MARCH_22_JPG_CORAL_19_NUMSPECSTOT, spc.uniqpeps[,21]>1)
+prot.len<-subset(Mcapdata, select=PROTLEN)
+Mcap.qspec<-merge(x=Mcap.spc2peps, y=prot.len, by='row.names', all.x=T)
+write.csv(Mcap.qspec, 'Mcap_bleached_spec_counts_for_qspec.csv')
 
 #make file for qspec (web base tool to find differential proteins)
 #spc.uniqpeps<-cbind(rpom.spc2, rpom.pepsuniq$ALL_NUMPEPSUNIQ) 
@@ -21,6 +27,8 @@ Mcap.coral.prot<-subset(Mcap.2peps, grepl(paste('lcl', collapse='|'), rownames(M
 #rpom.qspec<-merge(x=rpom.spc2peps, y=prot.len, by='row.names', all.x=T)
 #write.csv(rpom.qspec, 'spec counts for qspec.csv')
 
+
+#Match sample names to MS sample IDs
 names(Mcap.coral.prot)[names(Mcap.coral.prot)=='X2018_MARCH_12_CORAL_JAA_01_ADJNSAF']<-'41BO'
 names(Mcap.coral.prot)[names(Mcap.coral.prot)=='X2018_MARCH_12_CORAL_JAA_02_ADJNSAF']<-'74B2O'
 names(Mcap.coral.prot)[names(Mcap.coral.prot)=='X2018_MARCH_12_CORAL_JAA_03_ADJNSAF']<-'65BO'
@@ -130,11 +138,11 @@ names(C)
 
 sig.prots001 <- subset(C, A$pvals < 0.001)
 names(sig.prots001)
-write.csv(sig.prots001, file = "all_samples_sig_prots001") # save as text csv
+write.csv(sig.prots001, file = "bleached_samples_sig_prots001") # save as text csv
 
 sig.prots01 <- subset(C, A$pvals < 0.01)
 names(sig.prots01)
-write.csv(sig.prots01, file = "all_samples_sig_prots01")
+write.csv(sig.prots01, file = "bleached_samples_sig_prots01")
 
 
 

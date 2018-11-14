@@ -22,6 +22,7 @@ Mcap.coral.prot<-subset(Mcap.2peps, grepl(paste('lcl', collapse='|'), rownames(M
 #rpom.qspec<-merge(x=rpom.spc2peps, y=prot.len, by='row.names', all.x=T)
 #write.csv(rpom.qspec, 'spec counts for qspec.csv')
 
+#Match sample names to MS sample IDs
 names(Mcap.coral.prot)[names(Mcap.coral.prot)=='X2018_MARCH_12_CORAL_JAA_01_ADJNSAF']<-'41BO'
 names(Mcap.coral.prot)[names(Mcap.coral.prot)=='X2018_MARCH_12_CORAL_JAA_02_ADJNSAF']<-'74B2O'
 names(Mcap.coral.prot)[names(Mcap.coral.prot)=='X2018_MARCH_12_CORAL_JAA_03_ADJNSAF']<-'65BO'
