@@ -1,0 +1,474 @@
+GO Accession	GO Name	GO Aspect	P-value (1)	P-value (2)	Protein List (1)	Protein List (2)
+GO:0031328	positive regulation of cellular biosynthetic process	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0031333	negative regulation of protein complex assembly	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0045454	cell redox homeostasis	biological_process	1E0		lcl|c227562_g6_i1|m.12582,lcl|c227332_g2_i2|m.12341,lcl|c219883_g1_i2|m.6624,lcl|c236035_g1_i2|m.21599	
+GO:0022900	electron transport chain	biological_process	1E0		lcl|c236035_g1_i2|m.21599	
+GO:0051604	protein maturation	biological_process	1E0		lcl|c242793_g1_i1|m.30227	
+GO:0006139	nucleobase-containing compound metabolic process	biological_process	1E0		lcl|c243614_g4_i2|m.31123,lcl|c224026_g2_i4|m.9562,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c239610_g1_i3|m.26053	
+GO:0006790	sulfur compound metabolic process	biological_process	1E0		lcl|c227537_g2_i4|m.12549,lcl|c227188_g1_i1|m.12222,lcl|c221189_g3_i1|m.7459	
+GO:0006163	purine nucleotide metabolic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0042278	purine nucleoside metabolic process	biological_process	1E0		lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0015669	gas transport	biological_process	1E0		lcl|c234446_g3_i2|m.19850	
+GO:0015671	oxygen transport	biological_process	1E0		lcl|c234446_g3_i2|m.19850	
+GO:0015672	monovalent inorganic cation transport	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0035567	non-canonical Wnt signaling pathway	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0006164	purine nucleotide biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0046128	purine ribonucleoside metabolic process	biological_process	1E0		lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0046129	purine ribonucleoside biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0051641	cellular localization	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c218374_g4_i1|m.5754,lcl|c216621_g3_i1|m.4676	
+GO:0008152	metabolic process	biological_process	1E0		lcl|c212126_g1_i2|m.2626,lcl|c221356_g3_i2|m.7588,lcl|c216377_g1_i3|m.4559,lcl|c243349_g1_i4|m.30872,lcl|c232133_g1_i5|m.17039,lcl|c234789_g3_i1|m.20259,lcl|c227537_g2_i4|m.12549,lcl|c227562_g6_i1|m.12582,lcl|c240264_g4_i5|m.26985,lcl|c214032_g1_i4|m.3331,lcl|c224026_g2_i4|m.9562,lcl|c239210_g2_i1|m.25440,lcl|c233449_g1_i1|m.18576,lcl|c242193_g2_i1|m.29501,lcl|c242793_g1_i1|m.30227,lcl|c230880_g3_i5|m.15737,lcl|c217573_g1_i1|m.5252,lcl|c223205_g4_i1|m.8934,lcl|c212026_g3_i1|m.2608,lcl|c238662_g3_i6|m.24778,lcl|c223247_g3_i6|m.8971,lcl|c231559_g1_i5|m.16408,lcl|c221189_g3_i1|m.7459,lcl|c236174_g2_i1|m.21787,lcl|c230862_g3_i1|m.15714,lcl|c239610_g1_i3|m.26053,lcl|c236035_g1_i2|m.21599,lcl|c236087_g2_i1|m.21666,lcl|c224042_g7_i2|m.9570,lcl|c238919_g4_i6|m.25079,lcl|c237215_g1_i1|m.23031,lcl|c226769_g3_i1|m.11767,lcl|c223077_g2_i1|m.8858,lcl|c226216_g1_i2|m.11298,lcl|c227188_g1_i1|m.12222,lcl|c233767_g1_i3|m.18989,lcl|c241174_g2_i10|m.28286,lcl|c229881_g6_i6|m.14719,lcl|c218703_g1_i4|m.5907,lcl|c238826_g2_i1|m.24957,lcl|c216953_g1_i3|m.4865,lcl|c239860_g1_i2|m.26443,lcl|c218820_g4_i2|m.5974,lcl|c222306_g8_i4|m.8236,lcl|c231931_g2_i1|m.16792,lcl|c243614_g4_i2|m.31123,lcl|c225015_g2_i1|m.10306,lcl|c201141_g1_i1|m.1178,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c227206_g2_i7|m.12247	
+GO:0031399	regulation of protein modification process	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0051649	establishment of localization in cell	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c218374_g4_i1|m.5754	
+GO:0031401	positive regulation of protein modification process	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0051651	maintenance of location in cell	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0016192	vesicle-mediated transport	biological_process	1E0		lcl|c218374_g4_i1|m.5754	
+GO:0007165	signal transduction	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0007010	cytoskeleton organization	biological_process	1E0		lcl|c231859_g5_i5|m.16713,lcl|c224201_g3_i8|m.9658,lcl|c220300_g3_i1|m.6859	
+GO:0065003	macromolecular complex assembly	biological_process	1E0		lcl|c218820_g4_i2|m.5974	
+GO:0065007	biological regulation	biological_process	1E0		lcl|c227562_g6_i1|m.12582,lcl|c227322_g4_i4|m.12336,lcl|c227332_g2_i2|m.12341,lcl|c219883_g1_i2|m.6624,lcl|c233818_g2_i6|m.19032,lcl|c216621_g3_i1|m.4676,lcl|c242001_g1_i2|m.29236,lcl|c236174_g2_i1|m.21787,lcl|c236035_g1_i2|m.21599,lcl|c223077_g2_i1|m.8858	
+GO:0065008	regulation of biological quality	biological_process	1E0		lcl|c227562_g6_i1|m.12582,lcl|c227322_g4_i4|m.12336,lcl|c227332_g2_i2|m.12341,lcl|c219883_g1_i2|m.6624,lcl|c216621_g3_i1|m.4676,lcl|c236035_g1_i2|m.21599	
+GO:0065009	regulation of molecular function	biological_process	1E0		lcl|c233818_g2_i6|m.19032,lcl|c242001_g1_i2|m.29236	
+GO:0009653	anatomical structure morphogenesis	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0007017	microtubule-based process	biological_process	1E0		lcl|c224201_g3_i8|m.9658	
+GO:0032502	developmental process	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0032507	maintenance of protein location in cell	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0098869	cellular oxidant detoxification	biological_process	1E0		lcl|c227562_g6_i1|m.12582,lcl|c238919_g4_i6|m.25079	
+GO:0046184	aldehyde biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737	
+GO:0042816	vitamin B6 metabolic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737	
+GO:0007169	transmembrane receptor protein tyrosine kinase signaling pathway	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0042819	vitamin B6 biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737	
+GO:0000096	sulfur amino acid metabolic process	biological_process	1E0		lcl|c221189_g3_i1|m.7459	
+GO:0000097	sulfur amino acid biosynthetic process	biological_process	1E0		lcl|c221189_g3_i1|m.7459	
+GO:0051716	cellular response to stimulus	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c236174_g2_i1|m.21787	
+GO:0043933	macromolecular complex subunit organization	biological_process	1E0		lcl|c231859_g5_i5|m.16713,lcl|c220300_g3_i1|m.6859,lcl|c218820_g4_i2|m.5974	
+GO:0042822	pyridoxal phosphate metabolic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737	
+GO:0042823	pyridoxal phosphate biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737	
+GO:0034613	cellular protein localization	biological_process	1E0		lcl|c218374_g4_i1|m.5754,lcl|c216621_g3_i1|m.4676	
+GO:0000103	sulfate assimilation	biological_process	1E0		lcl|c227537_g2_i4|m.12549	
+GO:0032535	regulation of cellular component size	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0008104	protein localization	biological_process	1E0		lcl|c240251_g4_i2|m.26962,lcl|c218374_g4_i1|m.5754,lcl|c216621_g3_i1|m.4676	
+GO:0034622	cellular macromolecular complex assembly	biological_process	1E0		lcl|c218820_g4_i2|m.5974	
+GO:0009889	regulation of biosynthetic process	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0022607	cellular component assembly	biological_process	1E0		lcl|c218820_g4_i2|m.5974	
+GO:0009891	positive regulation of biosynthetic process	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0009892	negative regulation of metabolic process	biological_process	1E0		lcl|c233818_g2_i6|m.19032,lcl|c242001_g1_i2|m.29236	
+GO:0009893	positive regulation of metabolic process	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c223077_g2_i1|m.8858	
+GO:0009888	tissue development	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0034641	cellular nitrogen compound metabolic process	biological_process	1E0		lcl|c218703_g1_i4|m.5907,lcl|c237215_g1_i1|m.23031,lcl|c218820_g4_i2|m.5974,lcl|c223077_g2_i1|m.8858,lcl|c230880_g3_i5|m.15737,lcl|c214032_g1_i4|m.3331,lcl|c243614_g4_i2|m.31123,lcl|c224026_g2_i4|m.9562,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c239610_g1_i3|m.26053	
+GO:0034645	cellular macromolecule biosynthetic process	biological_process	1E0		lcl|c218703_g1_i4|m.5907,lcl|c214032_g1_i4|m.3331,lcl|c218820_g4_i2|m.5974,lcl|c223077_g2_i1|m.8858	
+GO:0034654	nucleobase-containing compound biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0080090	regulation of primary metabolic process	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c242001_g1_i2|m.29236,lcl|c223077_g2_i1|m.8858	
+GO:0045184	establishment of protein localization	biological_process	1E0		lcl|c240251_g4_i2|m.26962,lcl|c218374_g4_i1|m.5754	
+GO:0045185	maintenance of protein location	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0048518	positive regulation of biological process	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c223077_g2_i1|m.8858	
+GO:0048519	negative regulation of biological process	biological_process	1E0		lcl|c233818_g2_i6|m.19032,lcl|c216621_g3_i1|m.4676,lcl|c242001_g1_i2|m.29236	
+GO:0048522	positive regulation of cellular process	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c223077_g2_i1|m.8858	
+GO:0048523	negative regulation of cellular process	biological_process	1E0		lcl|c216621_g3_i1|m.4676,lcl|c242001_g1_i2|m.29236	
+GO:0050657	nucleic acid transport	biological_process	1E0		lcl|c243614_g4_i2|m.31123	
+GO:0050658	RNA transport	biological_process	1E0		lcl|c243614_g4_i2|m.31123	
+GO:0001732	formation of cytoplasmic translation initiation complex	biological_process	1E0		lcl|c218820_g4_i2|m.5974	
+GO:0009966	regulation of signal transduction	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0009967	positive regulation of signal transduction	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0001736	establishment of planar polarity	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0001738	morphogenesis of a polarized epithelium	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0009987	cellular process	biological_process	1E0		lcl|c236087_g2_i1|m.21666,lcl|c224042_g7_i2|m.9570,lcl|c238919_g4_i6|m.25079,lcl|c237215_g1_i1|m.23031,lcl|c212126_g1_i2|m.2626,lcl|c221356_g3_i2|m.7588,lcl|c226769_g3_i1|m.11767,lcl|c231085_g3_i1|m.15955,lcl|c232133_g1_i5|m.17039,lcl|c234789_g3_i1|m.20259,lcl|c223077_g2_i1|m.8858,lcl|c224201_g3_i8|m.9658,lcl|c227537_g2_i4|m.12549,lcl|c227562_g6_i1|m.12582,lcl|c227188_g1_i1|m.12222,lcl|c214032_g1_i4|m.3331,lcl|c234955_g3_i3|m.20445,lcl|c224026_g2_i4|m.9562,lcl|c220300_g3_i1|m.6859,lcl|c233767_g1_i3|m.18989,lcl|c231859_g5_i5|m.16713,lcl|c218703_g1_i4|m.5907,lcl|c227332_g2_i2|m.12341,lcl|c238826_g2_i1|m.24957,lcl|c239860_g1_i2|m.26443,lcl|c242193_g2_i1|m.29501,lcl|c218820_g4_i2|m.5974,lcl|c216621_g3_i1|m.4676,lcl|c230880_g3_i5|m.15737,lcl|c227322_g4_i4|m.12336,lcl|c217573_g1_i1|m.5252,lcl|c243614_g4_i2|m.31123,lcl|c212026_g3_i1|m.2608,lcl|c238662_g3_i6|m.24778,lcl|c219883_g1_i2|m.6624,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c236174_g2_i1|m.21787,lcl|c227206_g2_i7|m.12247,lcl|c239610_g1_i3|m.26053,lcl|c236035_g1_i2|m.21599,lcl|c231068_g6_i2|m.15939	
+GO:0019941	modification-dependent protein catabolic process	biological_process	1E0		lcl|c212126_g1_i2|m.2626	
+GO:0006378	mRNA polyadenylation	biological_process	1E0		lcl|c224026_g2_i4|m.9562	
+GO:0006379	mRNA cleavage	biological_process	1E0		lcl|c224026_g2_i4|m.9562	
+GO:0048583	regulation of response to stimulus	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0048584	positive regulation of response to stimulus	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0006396	RNA processing	biological_process	1E0		lcl|c243614_g4_i2|m.31123,lcl|c224026_g2_i4|m.9562	
+GO:0006397	mRNA processing	biological_process	1E0		lcl|c243614_g4_i2|m.31123,lcl|c224026_g2_i4|m.9562	
+GO:0080171	lytic vacuole organization	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0006403	RNA localization	biological_process	1E0		lcl|c243614_g4_i2|m.31123	
+GO:0006412	translation	biological_process	1E0		lcl|c218703_g1_i4|m.5907,lcl|c214032_g1_i4|m.3331,lcl|c218820_g4_i2|m.5974,lcl|c223077_g2_i1|m.8858	
+GO:0006413	translational initiation	biological_process	1E0		lcl|c218820_g4_i2|m.5974	
+GO:0006414	translational elongation	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0006417	regulation of translation	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0044085	cellular component biogenesis	biological_process	1E0		lcl|c218820_g4_i2|m.5974	
+GO:0044087	regulation of cellular component biogenesis	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0010033	response to organic substance	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0015931	nucleobase-containing compound transport	biological_process	1E0		lcl|c243614_g4_i2|m.31123	
+GO:0071229	cellular response to acid chemical	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0044092	negative regulation of molecular function	biological_process	1E0		lcl|c233818_g2_i6|m.19032,lcl|c242001_g1_i2|m.29236	
+GO:1901135	carbohydrate derivative metabolic process	biological_process	1E0		lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c239610_g1_i3|m.26053	
+GO:1901137	carbohydrate derivative biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0006448	regulation of translational elongation	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0006449	regulation of translational termination	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0006452	translational frameshifting	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0006464	cellular protein modification process	biological_process	1E0		lcl|c217573_g1_i1|m.5252,lcl|c242193_g2_i1|m.29501,lcl|c221356_g3_i2|m.7588,lcl|c233767_g1_i3|m.18989,lcl|c236174_g2_i1|m.21787,lcl|c232133_g1_i5|m.17039	
+GO:0046390	ribose phosphate biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0046394	carboxylic acid biosynthetic process	biological_process	1E0		lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459	
+GO:0006468	protein phosphorylation	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0071265	L-methionine biosynthetic process	biological_process	1E0		lcl|c221189_g3_i1|m.7459	
+GO:0071267	L-methionine salvage	biological_process	1E0		lcl|c221189_g3_i1|m.7459	
+GO:0045333	cellular respiration	biological_process	1E0		lcl|c226769_g3_i1|m.11767,lcl|c234789_g3_i1|m.20259,lcl|c227206_g2_i7|m.12247	
+GO:0015980	energy derivation by oxidation of organic compounds	biological_process	1E0		lcl|c226769_g3_i1|m.11767,lcl|c234789_g3_i1|m.20259,lcl|c227206_g2_i7|m.12247	
+GO:0015992	proton transport	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0043043	peptide biosynthetic process	biological_process	1E0		lcl|c218703_g1_i4|m.5907,lcl|c214032_g1_i4|m.3331,lcl|c218820_g4_i2|m.5974,lcl|c223077_g2_i1|m.8858	
+GO:0050789	regulation of biological process	biological_process	1E0		lcl|c227562_g6_i1|m.12582,lcl|c227322_g4_i4|m.12336,lcl|c227332_g2_i2|m.12341,lcl|c219883_g1_i2|m.6624,lcl|c233818_g2_i6|m.19032,lcl|c216621_g3_i1|m.4676,lcl|c242001_g1_i2|m.29236,lcl|c236174_g2_i1|m.21787,lcl|c236035_g1_i2|m.21599,lcl|c223077_g2_i1|m.8858	
+GO:0015985	energy coupled proton transport, down electrochemical gradient	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0050790	regulation of catalytic activity	biological_process	1E0		lcl|c233818_g2_i6|m.19032,lcl|c242001_g1_i2|m.29236	
+GO:0015986	ATP synthesis coupled proton transport	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0050793	regulation of developmental process	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0050794	regulation of cellular process	biological_process	1E0		lcl|c227562_g6_i1|m.12582,lcl|c227322_g4_i4|m.12336,lcl|c227332_g2_i2|m.12341,lcl|c219883_g1_i2|m.6624,lcl|c216621_g3_i1|m.4676,lcl|c242001_g1_i2|m.29236,lcl|c236174_g2_i1|m.21787,lcl|c236035_g1_i2|m.21599,lcl|c223077_g2_i1|m.8858	
+GO:0072350	tricarboxylic acid metabolic process	biological_process	1E0		lcl|c226769_g3_i1|m.11767,lcl|c234789_g3_i1|m.20259,lcl|c227206_g2_i7|m.12247	
+GO:0055085	transmembrane transport	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c231085_g3_i1|m.15955	
+GO:0055086	nucleobase-containing small molecule metabolic process	biological_process	1E0		lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0006508	proteolysis	biological_process	1E0		lcl|c240264_g4_i5|m.26985,lcl|c224042_g7_i2|m.9570,lcl|c216953_g1_i3|m.4865,lcl|c212126_g1_i2|m.2626,lcl|c216377_g1_i3|m.4559,lcl|c239210_g2_i1|m.25440,lcl|c242793_g1_i1|m.30227	
+GO:0055088	lipid homeostasis	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0016485	protein processing	biological_process	1E0		lcl|c242793_g1_i1|m.30227	
+GO:0071310	cellular response to organic substance	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0051603	proteolysis involved in cellular protein catabolic process	biological_process	1E0		lcl|c224042_g7_i2|m.9570,lcl|c212126_g1_i2|m.2626	
+GO:0006511	ubiquitin-dependent protein catabolic process	biological_process	1E0		lcl|c212126_g1_i2|m.2626	
+GO:0055092	sterol homeostasis	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0009056	catabolic process	biological_process	1E0		lcl|c224042_g7_i2|m.9570,lcl|c212126_g1_i2|m.2626	
+GO:0009057	macromolecule catabolic process	biological_process	1E0		lcl|c224042_g7_i2|m.9570,lcl|c212126_g1_i2|m.2626	
+GO:0009058	biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c227188_g1_i1|m.12222,lcl|c218703_g1_i4|m.5907,lcl|c214032_g1_i4|m.3331,lcl|c239860_g1_i2|m.26443,lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459,lcl|c218820_g4_i2|m.5974,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c223077_g2_i1|m.8858	
+GO:0009059	macromolecule biosynthetic process	biological_process	1E0		lcl|c218703_g1_i4|m.5907,lcl|c214032_g1_i4|m.3331,lcl|c218820_g4_i2|m.5974,lcl|c223077_g2_i1|m.8858	
+GO:0006518	peptide metabolic process	biological_process	1E0		lcl|c218703_g1_i4|m.5907,lcl|c214032_g1_i4|m.3331,lcl|c218820_g4_i2|m.5974,lcl|c223077_g2_i1|m.8858	
+GO:0006520	cellular amino acid metabolic process	biological_process	1E0		lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459	
+GO:0009060	aerobic respiration	biological_process	1E0		lcl|c226769_g3_i1|m.11767,lcl|c234789_g3_i1|m.20259,lcl|c227206_g2_i7|m.12247	
+GO:0043086	negative regulation of catalytic activity	biological_process	1E0		lcl|c233818_g2_i6|m.19032,lcl|c242001_g1_i2|m.29236	
+GO:0009064	glutamine family amino acid metabolic process	biological_process	1E0		lcl|c237215_g1_i1|m.23031	
+GO:0032780	negative regulation of ATPase activity	biological_process	1E0		lcl|c233818_g2_i6|m.19032	
+GO:0009066	aspartate family amino acid metabolic process	biological_process	1E0		lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459	
+GO:0043094	cellular metabolic compound salvage	biological_process	1E0		lcl|c221189_g3_i1|m.7459	
+GO:0048729	tissue morphogenesis	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0009067	aspartate family amino acid biosynthetic process	biological_process	1E0		lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459	
+GO:0016043	cellular component organization	biological_process	1E0		lcl|c231859_g5_i5|m.16713,lcl|c224201_g3_i8|m.9658,lcl|c227322_g4_i4|m.12336,lcl|c220300_g3_i1|m.6859,lcl|c218820_g4_i2|m.5974,lcl|c216621_g3_i1|m.4676	
+GO:0006528	asparagine metabolic process	biological_process	1E0		lcl|c237215_g1_i1|m.23031	
+GO:0032787	monocarboxylic acid metabolic process	biological_process	1E0		lcl|c227188_g1_i1|m.12222	
+GO:0009069	serine family amino acid metabolic process	biological_process	1E0		lcl|c221189_g3_i1|m.7459	
+GO:0006529	asparagine biosynthetic process	biological_process	1E0		lcl|c237215_g1_i1|m.23031	
+GO:0043102	amino acid salvage	biological_process	1E0		lcl|c221189_g3_i1|m.7459	
+GO:0016053	organic acid biosynthetic process	biological_process	1E0		lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459	
+GO:0006541	glutamine metabolic process	biological_process	1E0		lcl|c237215_g1_i1|m.23031	
+GO:0009086	methionine biosynthetic process	biological_process	1E0		lcl|c221189_g3_i1|m.7459	
+GO:0001919	regulation of receptor recycling	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0016070	RNA metabolic process	biological_process	1E0		lcl|c243614_g4_i2|m.31123,lcl|c224026_g2_i4|m.9562	
+GO:0016071	mRNA metabolic process	biological_process	1E0		lcl|c243614_g4_i2|m.31123,lcl|c224026_g2_i4|m.9562	
+GO:0046483	heterocycle metabolic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c243614_g4_i2|m.31123,lcl|c224026_g2_i4|m.9562,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c239610_g1_i3|m.26053	
+GO:0006555	methionine metabolic process	biological_process	1E0		lcl|c221189_g3_i1|m.7459	
+GO:0050896	response to stimulus	biological_process	1E0		lcl|c227562_g6_i1|m.12582,lcl|c227322_g4_i4|m.12336,lcl|c238919_g4_i6|m.25079,lcl|c221114_g2_i1|m.7405,lcl|c236174_g2_i1|m.21787	
+GO:0001932	regulation of protein phosphorylation	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0001934	positive regulation of protein phosphorylation	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0019220	regulation of phosphate metabolic process	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0046496	nicotinamide nucleotide metabolic process	biological_process	1E0		lcl|c223247_g3_i6|m.8971	
+GO:0019222	regulation of metabolic process	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c233818_g2_i6|m.19032,lcl|c242001_g1_i2|m.29236,lcl|c223077_g2_i1|m.8858	
+GO:0009108	coenzyme biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c227188_g1_i1|m.12222	
+GO:0046498	S-adenosylhomocysteine metabolic process	biological_process	1E0		lcl|c221189_g3_i1|m.7459	
+GO:0044237	cellular metabolic process	biological_process	1E0		lcl|c236087_g2_i1|m.21666,lcl|c224042_g7_i2|m.9570,lcl|c237215_g1_i1|m.23031,lcl|c212126_g1_i2|m.2626,lcl|c221356_g3_i2|m.7588,lcl|c226769_g3_i1|m.11767,lcl|c232133_g1_i5|m.17039,lcl|c234789_g3_i1|m.20259,lcl|c223077_g2_i1|m.8858,lcl|c227537_g2_i4|m.12549,lcl|c227188_g1_i1|m.12222,lcl|c214032_g1_i4|m.3331,lcl|c224026_g2_i4|m.9562,lcl|c233767_g1_i3|m.18989,lcl|c218703_g1_i4|m.5907,lcl|c238826_g2_i1|m.24957,lcl|c239860_g1_i2|m.26443,lcl|c242193_g2_i1|m.29501,lcl|c218820_g4_i2|m.5974,lcl|c230880_g3_i5|m.15737,lcl|c217573_g1_i1|m.5252,lcl|c243614_g4_i2|m.31123,lcl|c212026_g3_i1|m.2608,lcl|c238662_g3_i6|m.24778,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c236174_g2_i1|m.21787,lcl|c227206_g2_i7|m.12247,lcl|c239610_g1_i3|m.26053,lcl|c236035_g1_i2|m.21599	
+GO:0009110	vitamin biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737	
+GO:0046500	S-adenosylmethionine metabolic process	biological_process	1E0		lcl|c221189_g3_i1|m.7459	
+GO:0044238	primary metabolic process	biological_process	1E0		lcl|c224042_g7_i2|m.9570,lcl|c237215_g1_i1|m.23031,lcl|c212126_g1_i2|m.2626,lcl|c221356_g3_i2|m.7588,lcl|c216377_g1_i3|m.4559,lcl|c226769_g3_i1|m.11767,lcl|c232133_g1_i5|m.17039,lcl|c234789_g3_i1|m.20259,lcl|c223077_g2_i1|m.8858,lcl|c240264_g4_i5|m.26985,lcl|c214032_g1_i4|m.3331,lcl|c224026_g2_i4|m.9562,lcl|c239210_g2_i1|m.25440,lcl|c233767_g1_i3|m.18989,lcl|c218703_g1_i4|m.5907,lcl|c238826_g2_i1|m.24957,lcl|c216953_g1_i3|m.4865,lcl|c239860_g1_i2|m.26443,lcl|c242193_g2_i1|m.29501,lcl|c218820_g4_i2|m.5974,lcl|c242793_g1_i1|m.30227,lcl|c217573_g1_i1|m.5252,lcl|c243614_g4_i2|m.31123,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c236174_g2_i1|m.21787,lcl|c227206_g2_i7|m.12247,lcl|c239610_g1_i3|m.26053	
+GO:0045727	positive regulation of translation	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0018108	peptidyl-tyrosine phosphorylation	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0009116	nucleoside metabolic process	biological_process	1E0		lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0060026	convergent extension	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0009117	nucleotide metabolic process	biological_process	1E0		lcl|c223247_g3_i6|m.8971,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0006575	cellular modified amino acid metabolic process	biological_process	1E0		lcl|c221189_g3_i1|m.7459	
+GO:0007033	vacuole organization	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0009119	ribonucleoside metabolic process	biological_process	1E0		lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0044248	cellular catabolic process	biological_process	1E0		lcl|c224042_g7_i2|m.9570,lcl|c212126_g1_i2|m.2626	
+GO:0009123	nucleoside monophosphate metabolic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0044249	cellular biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c227188_g1_i1|m.12222,lcl|c218703_g1_i4|m.5907,lcl|c214032_g1_i4|m.3331,lcl|c239860_g1_i2|m.26443,lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459,lcl|c218820_g4_i2|m.5974,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c223077_g2_i1|m.8858	
+GO:0000413	protein peptidyl-prolyl isomerization	biological_process	1E0		lcl|c217573_g1_i1|m.5252,lcl|c233767_g1_i3|m.18989,lcl|c232133_g1_i5|m.17039	
+GO:0009124	nucleoside monophosphate biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0009126	purine nucleoside monophosphate metabolic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0009127	purine nucleoside monophosphate biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0043161	proteasome-mediated ubiquitin-dependent protein catabolic process	biological_process	1E0		lcl|c212126_g1_i2|m.2626	
+GO:0044255	cellular lipid metabolic process	biological_process	1E0		lcl|c239860_g1_i2|m.26443	
+GO:0044257	cellular protein catabolic process	biological_process	1E0		lcl|c224042_g7_i2|m.9570,lcl|c212126_g1_i2|m.2626	
+GO:0044260	cellular macromolecule metabolic process	biological_process	1E0		lcl|c218703_g1_i4|m.5907,lcl|c224042_g7_i2|m.9570,lcl|c212126_g1_i2|m.2626,lcl|c242193_g2_i1|m.29501,lcl|c221356_g3_i2|m.7588,lcl|c218820_g4_i2|m.5974,lcl|c232133_g1_i5|m.17039,lcl|c223077_g2_i1|m.8858,lcl|c214032_g1_i4|m.3331,lcl|c217573_g1_i1|m.5252,lcl|c243614_g4_i2|m.31123,lcl|c224026_g2_i4|m.9562,lcl|c233767_g1_i3|m.18989,lcl|c236174_g2_i1|m.21787	
+GO:0043170	macromolecule metabolic process	biological_process	1E0		lcl|c218703_g1_i4|m.5907,lcl|c224042_g7_i2|m.9570,lcl|c216953_g1_i3|m.4865,lcl|c212126_g1_i2|m.2626,lcl|c242193_g2_i1|m.29501,lcl|c221356_g3_i2|m.7588,lcl|c216377_g1_i3|m.4559,lcl|c218820_g4_i2|m.5974,lcl|c242793_g1_i1|m.30227,lcl|c232133_g1_i5|m.17039,lcl|c223077_g2_i1|m.8858,lcl|c240264_g4_i5|m.26985,lcl|c214032_g1_i4|m.3331,lcl|c217573_g1_i1|m.5252,lcl|c243614_g4_i2|m.31123,lcl|c224026_g2_i4|m.9562,lcl|c239210_g2_i1|m.25440,lcl|c233767_g1_i3|m.18989,lcl|c236174_g2_i1|m.21787	
+GO:0044262	cellular carbohydrate metabolic process	biological_process	1E0		lcl|c238826_g2_i1|m.24957	
+GO:0018130	heterocycle biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0044265	cellular macromolecule catabolic process	biological_process	1E0		lcl|c224042_g7_i2|m.9570,lcl|c212126_g1_i2|m.2626	
+GO:0009141	nucleoside triphosphate metabolic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0044267	cellular protein metabolic process	biological_process	1E0		lcl|c218703_g1_i4|m.5907,lcl|c224042_g7_i2|m.9570,lcl|c214032_g1_i4|m.3331,lcl|c217573_g1_i1|m.5252,lcl|c212126_g1_i2|m.2626,lcl|c242193_g2_i1|m.29501,lcl|c221356_g3_i2|m.7588,lcl|c218820_g4_i2|m.5974,lcl|c233767_g1_i3|m.18989,lcl|c236174_g2_i1|m.21787,lcl|c232133_g1_i5|m.17039,lcl|c223077_g2_i1|m.8858	
+GO:0009142	nucleoside triphosphate biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0009144	purine nucleoside triphosphate metabolic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0009145	purine nucleoside triphosphate biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:1901293	nucleoside phosphate biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0044271	cellular nitrogen compound biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c218703_g1_i4|m.5907,lcl|c214032_g1_i4|m.3331,lcl|c237215_g1_i1|m.23031,lcl|c218820_g4_i2|m.5974,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c223077_g2_i1|m.8858	
+GO:0044272	sulfur compound biosynthetic process	biological_process	1E0		lcl|c227188_g1_i1|m.12222,lcl|c221189_g3_i1|m.7459	
+GO:0008064	regulation of actin polymerization or depolymerization	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0009150	purine ribonucleotide metabolic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0009152	purine ribonucleotide biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0044281	small molecule metabolic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c227188_g1_i1|m.12222,lcl|c238826_g2_i1|m.24957,lcl|c237215_g1_i1|m.23031,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c226769_g3_i1|m.11767,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c234789_g3_i1|m.20259,lcl|c227206_g2_i7|m.12247	
+GO:0009156	ribonucleoside monophosphate biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0018149	peptide cross-linking	biological_process	1E0		lcl|c242193_g2_i1|m.29501,lcl|c221356_g3_i2|m.7588	
+GO:0044283	small molecule biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459	
+GO:0009161	ribonucleoside monophosphate metabolic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0071417	cellular response to organonitrogen compound	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0009163	nucleoside biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0019284	L-methionine biosynthetic process from S-adenosylmethionine	biological_process	1E0		lcl|c221189_g3_i1|m.7459	
+GO:0060071	Wnt signaling pathway, planar cell polarity pathway	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0043200	response to amino acid	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0009165	nucleotide biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0009167	purine ribonucleoside monophosphate metabolic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0009168	purine ribonucleoside monophosphate biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0006629	lipid metabolic process	biological_process	1E0		lcl|c239860_g1_i2|m.26443	
+GO:0006637	acyl-CoA metabolic process	biological_process	1E0		lcl|c227188_g1_i1|m.12222	
+GO:0002009	morphogenesis of an epithelium	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0015031	protein transport	biological_process	1E0		lcl|c240251_g4_i2|m.26962,lcl|c218374_g4_i1|m.5754	
+GO:0010243	response to organonitrogen compound	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0006644	phospholipid metabolic process	biological_process	1E0		lcl|c239860_g1_i2|m.26443	
+GO:0072521	purine-containing compound metabolic process	biological_process	1E0		lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0072522	purine-containing compound biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0048856	anatomical structure development	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0072524	pyridine-containing compound metabolic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c223247_g3_i6|m.8971	
+GO:0072525	pyridine-containing compound biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737	
+GO:0019318	hexose metabolic process	biological_process	1E0		lcl|c238826_g2_i1|m.24957,lcl|c223247_g3_i6|m.8971	
+GO:0009199	ribonucleoside triphosphate metabolic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0018193	peptidyl-amino acid modification	biological_process	1E0		lcl|c217573_g1_i1|m.5252,lcl|c233767_g1_i3|m.18989,lcl|c236174_g2_i1|m.21787,lcl|c232133_g1_i5|m.17039	
+GO:0043241	protein complex disassembly	biological_process	1E0		lcl|c220300_g3_i1|m.6859	
+GO:0009201	ribonucleoside triphosphate biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0090066	regulation of anatomical structure size	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0043243	positive regulation of protein complex disassembly	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0043244	regulation of protein complex disassembly	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0009205	purine ribonucleoside triphosphate metabolic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0009206	purine ribonucleoside triphosphate biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0007155	cell adhesion	biological_process	1E0		lcl|c231859_g5_i5|m.16713	
+GO:0016197	endosomal transport	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:1901360	organic cyclic compound metabolic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c243614_g4_i2|m.31123,lcl|c224026_g2_i4|m.9562,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c239610_g1_i3|m.26053	
+GO:1901362	organic cyclic compound biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0043254	regulation of protein complex assembly	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0048878	chemical homeostasis	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0018208	peptidyl-proline modification	biological_process	1E0		lcl|c217573_g1_i1|m.5252,lcl|c233767_g1_i3|m.18989,lcl|c232133_g1_i5|m.17039	
+GO:0018212	peptidyl-tyrosine modification	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0051028	mRNA transport	biological_process	1E0		lcl|c243614_g4_i2|m.31123	
+GO:0009225	nucleotide-sugar metabolic process	biological_process	1E0		lcl|c239610_g1_i3|m.26053	
+GO:0032956	regulation of actin cytoskeleton organization	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0008150	biological_process	biological_process	1E0		lcl|c212126_g1_i2|m.2626,lcl|c221356_g3_i2|m.7588,lcl|c216377_g1_i3|m.4559,lcl|c243349_g1_i4|m.30872,lcl|c231085_g3_i1|m.15955,lcl|c232133_g1_i5|m.17039,lcl|c234789_g3_i1|m.20259,lcl|c224201_g3_i8|m.9658,lcl|c227537_g2_i4|m.12549,lcl|c227562_g6_i1|m.12582,lcl|c240264_g4_i5|m.26985,lcl|c214032_g1_i4|m.3331,lcl|c234955_g3_i3|m.20445,lcl|c224026_g2_i4|m.9562,lcl|c239210_g2_i1|m.25440,lcl|c242001_g1_i2|m.29236,lcl|c231859_g5_i5|m.16713,lcl|c233449_g1_i1|m.18576,lcl|c242193_g2_i1|m.29501,lcl|c216621_g3_i1|m.4676,lcl|c242793_g1_i1|m.30227,lcl|c230880_g3_i5|m.15737,lcl|c217573_g1_i1|m.5252,lcl|c223205_g4_i1|m.8934,lcl|c212026_g3_i1|m.2608,lcl|c238662_g3_i6|m.24778,lcl|c219883_g1_i2|m.6624,lcl|c223247_g3_i6|m.8971,lcl|c231559_g1_i5|m.16408,lcl|c218374_g4_i1|m.5754,lcl|c221189_g3_i1|m.7459,lcl|c236174_g2_i1|m.21787,lcl|c230862_g3_i1|m.15714,lcl|c239610_g1_i3|m.26053,lcl|c236035_g1_i2|m.21599,lcl|c236087_g2_i1|m.21666,lcl|c224042_g7_i2|m.9570,lcl|c238919_g4_i6|m.25079,lcl|c237215_g1_i1|m.23031,lcl|c221114_g2_i1|m.7405,lcl|c226769_g3_i1|m.11767,lcl|c223077_g2_i1|m.8858,lcl|c226216_g1_i2|m.11298,lcl|c227188_g1_i1|m.12222,lcl|c234446_g3_i2|m.19850,lcl|c220300_g3_i1|m.6859,lcl|c233767_g1_i3|m.18989,lcl|c241174_g2_i10|m.28286,lcl|c229881_g6_i6|m.14719,lcl|c218703_g1_i4|m.5907,lcl|c227332_g2_i2|m.12341,lcl|c240251_g4_i2|m.26962,lcl|c238826_g2_i1|m.24957,lcl|c216953_g1_i3|m.4865,lcl|c239860_g1_i2|m.26443,lcl|c218820_g4_i2|m.5974,lcl|c222306_g8_i4|m.8236,lcl|c231931_g2_i1|m.16792,lcl|c227322_g4_i4|m.12336,lcl|c243614_g4_i2|m.31123,lcl|c225015_g2_i1|m.10306,lcl|c201141_g1_i1|m.1178,lcl|c214108_g4_i4|m.3369,lcl|c233818_g2_i6|m.19032,lcl|c231281_g6_i3|m.16097,lcl|c227206_g2_i7|m.12247,lcl|c231068_g6_i2|m.15939	
+GO:0008154	actin polymerization or depolymerization	biological_process	1E0		lcl|c220300_g3_i1|m.6859	
+GO:0019362	pyridine nucleotide metabolic process	biological_process	1E0		lcl|c223247_g3_i6|m.8971	
+GO:0032970	regulation of actin filament-based process	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0071495	cellular response to endogenous stimulus	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0032984	macromolecular complex disassembly	biological_process	1E0		lcl|c220300_g3_i1|m.6859	
+GO:0009259	ribonucleotide metabolic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0009260	ribonucleotide biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0030833	regulation of actin filament polymerization	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0006725	cellular aromatic compound metabolic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c243614_g4_i2|m.31123,lcl|c224026_g2_i4|m.9562,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c239610_g1_i3|m.26053	
+GO:0030837	negative regulation of actin filament polymerization	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0006732	coenzyme metabolic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c227188_g1_i1|m.12222,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459	
+GO:0006733	oxidoreduction coenzyme metabolic process	biological_process	1E0		lcl|c223247_g3_i6|m.8971	
+GO:0006739	NADP metabolic process	biological_process	1E0		lcl|c223247_g3_i6|m.8971	
+GO:1990748	cellular detoxification	biological_process	1E0		lcl|c227562_g6_i1|m.12582,lcl|c238919_g4_i6|m.25079	
+GO:0006753	nucleoside phosphate metabolic process	biological_process	1E0		lcl|c223247_g3_i6|m.8971,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0006754	ATP biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0006766	vitamin metabolic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737	
+GO:0006767	water-soluble vitamin metabolic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737	
+GO:0016310	phosphorylation	biological_process	1E0		lcl|c227537_g2_i4|m.12549,lcl|c238826_g2_i1|m.24957,lcl|c212026_g3_i1|m.2608,lcl|c238662_g3_i6|m.24778,lcl|c236174_g2_i1|m.21787	
+GO:0042221	response to chemical	biological_process	1E0		lcl|c227562_g6_i1|m.12582,lcl|c227322_g4_i4|m.12336,lcl|c238919_g4_i6|m.25079	
+GO:0016311	dephosphorylation	biological_process	1E0		lcl|c236087_g2_i1|m.21666,lcl|c221189_g3_i1|m.7459	
+GO:0033036	macromolecule localization	biological_process	1E0		lcl|c240251_g4_i2|m.26962,lcl|c243614_g4_i2|m.31123,lcl|c218374_g4_i1|m.5754,lcl|c216621_g3_i1|m.4676	
+GO:0090175	regulation of establishment of planar polarity	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0019438	aromatic compound biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0051128	regulation of cellular component organization	biological_process	1E0		lcl|c216621_g3_i1|m.4676,lcl|c223077_g2_i1|m.8858	
+GO:0051129	negative regulation of cellular component organization	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0033043	regulation of organelle organization	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0051130	positive regulation of cellular component organization	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0006793	phosphorus metabolic process	biological_process	1E0		lcl|c236087_g2_i1|m.21666,lcl|c238826_g2_i1|m.24957,lcl|c239860_g1_i2|m.26443,lcl|c227537_g2_i4|m.12549,lcl|c230880_g3_i5|m.15737,lcl|c227188_g1_i1|m.12222,lcl|c212026_g3_i1|m.2608,lcl|c238662_g3_i6|m.24778,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c236174_g2_i1|m.21787	
+GO:0006796	phosphate-containing compound metabolic process	biological_process	1E0		lcl|c227537_g2_i4|m.12549,lcl|c230880_g3_i5|m.15737,lcl|c236087_g2_i1|m.21666,lcl|c238826_g2_i1|m.24957,lcl|c212026_g3_i1|m.2608,lcl|c239860_g1_i2|m.26443,lcl|c238662_g3_i6|m.24778,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c236174_g2_i1|m.21787	
+GO:0008380	RNA splicing	biological_process	1E0		lcl|c243614_g4_i2|m.31123	
+GO:0030908	protein splicing	biological_process	1E0		lcl|c242793_g1_i1|m.30227	
+GO:1902531	regulation of intracellular signal transduction	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:1902533	positive regulation of intracellular signal transduction	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0051156	glucose 6-phosphate metabolic process	biological_process	1E0		lcl|c223247_g3_i6|m.8971	
+GO:0006807	nitrogen compound metabolic process	biological_process	1E0		lcl|c218703_g1_i4|m.5907,lcl|c237215_g1_i1|m.23031,lcl|c218820_g4_i2|m.5974,lcl|c223077_g2_i1|m.8858,lcl|c230880_g3_i5|m.15737,lcl|c214032_g1_i4|m.3331,lcl|c243614_g4_i2|m.31123,lcl|c224026_g2_i4|m.9562,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c239610_g1_i3|m.26053	
+GO:0043408	regulation of MAPK cascade	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0006810	transport	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c234446_g3_i2|m.19850,lcl|c240251_g4_i2|m.26962,lcl|c243614_g4_i2|m.31123,lcl|c218374_g4_i1|m.5754,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c231085_g3_i1|m.15955	
+GO:0043410	positive regulation of MAPK cascade	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0032006	regulation of TOR signaling	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0006811	ion transport	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0043412	macromolecule modification	biological_process	1E0		lcl|c217573_g1_i1|m.5252,lcl|c242193_g2_i1|m.29501,lcl|c221356_g3_i2|m.7588,lcl|c233767_g1_i3|m.18989,lcl|c236174_g2_i1|m.21787,lcl|c232133_g1_i5|m.17039	
+GO:0032008	positive regulation of TOR signaling	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0006812	cation transport	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0060255	regulation of macromolecule metabolic process	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c242001_g1_i2|m.29236,lcl|c223077_g2_i1|m.8858	
+GO:0002181	cytoplasmic translation	biological_process	1E0		lcl|c218820_g4_i2|m.5974	
+GO:0002183	cytoplasmic translational initiation	biological_process	1E0		lcl|c218820_g4_i2|m.5974	
+GO:0006818	hydrogen transport	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0051171	regulation of nitrogen compound metabolic process	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0051173	positive regulation of nitrogen compound metabolic process	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0051174	regulation of phosphorus metabolic process	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0051179	localization	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c234446_g3_i2|m.19850,lcl|c240251_g4_i2|m.26962,lcl|c243614_g4_i2|m.31123,lcl|c218374_g4_i1|m.5754,lcl|c214108_g4_i4|m.3369,lcl|c216621_g3_i1|m.4676,lcl|c231281_g6_i3|m.16097,lcl|c231085_g3_i1|m.15955	
+GO:0071616	acyl-CoA biosynthetic process	biological_process	1E0		lcl|c227188_g1_i1|m.12222	
+GO:0036211	protein modification process	biological_process	1E0		lcl|c217573_g1_i1|m.5252,lcl|c242193_g2_i1|m.29501,lcl|c221356_g3_i2|m.7588,lcl|c233767_g1_i3|m.18989,lcl|c236174_g2_i1|m.21787,lcl|c232133_g1_i5|m.17039	
+GO:0051186	cofactor metabolic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c227188_g1_i1|m.12222,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459	
+GO:0051188	cofactor biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c227188_g1_i1|m.12222	
+GO:0043436	oxoacid metabolic process	biological_process	1E0		lcl|c227188_g1_i1|m.12222,lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459,lcl|c226769_g3_i1|m.11767,lcl|c234789_g3_i1|m.20259,lcl|c227206_g2_i7|m.12247	
+GO:0022411	cellular component disassembly	biological_process	1E0		lcl|c220300_g3_i1|m.6859	
+GO:0022603	regulation of anatomical structure morphogenesis	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0019509	L-methionine biosynthetic process from methylthioadenosine	biological_process	1E0		lcl|c221189_g3_i1|m.7459	
+GO:1902578	single-organism localization	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c234446_g3_i2|m.19850,lcl|c214108_g4_i4|m.3369,lcl|c216621_g3_i1|m.4676,lcl|c231281_g6_i3|m.16097,lcl|c231085_g3_i1|m.15955	
+GO:0022610	biological adhesion	biological_process	1E0		lcl|c231859_g5_i5|m.16713	
+GO:1902582	single-organism intracellular transport	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0022613	ribonucleoprotein complex biogenesis	biological_process	1E0		lcl|c218820_g4_i2|m.5974	
+GO:1902589	single-organism organelle organization	biological_process	1E0		lcl|c231859_g5_i5|m.16713,lcl|c220300_g3_i1|m.6859	
+GO:0022618	ribonucleoprotein complex assembly	biological_process	1E0		lcl|c218820_g4_i2|m.5974	
+GO:0043462	regulation of ATPase activity	biological_process	1E0		lcl|c233818_g2_i6|m.19032	
+GO:0009636	response to toxic substance	biological_process	1E0		lcl|c227562_g6_i1|m.12582,lcl|c238919_g4_i6|m.25079	
+GO:0046835	carbohydrate phosphorylation	biological_process	1E0		lcl|c238826_g2_i1|m.24957	
+GO:0042325	regulation of phosphorylation	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0042327	positive regulation of phosphorylation	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0051234	establishment of localization	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c234446_g3_i2|m.19850,lcl|c240251_g4_i2|m.26962,lcl|c243614_g4_i2|m.31123,lcl|c218374_g4_i1|m.5754,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c231085_g3_i1|m.15955	
+GO:0051235	maintenance of location	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0010466	negative regulation of peptidase activity	biological_process	1E0		lcl|c242001_g1_i2|m.29236	
+GO:0051236	establishment of RNA localization	biological_process	1E0		lcl|c243614_g4_i2|m.31123	
+GO:1902600	hydrogen ion transmembrane transport	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0010467	gene expression	biological_process	1E0		lcl|c218703_g1_i4|m.5907,lcl|c214032_g1_i4|m.3331,lcl|c243614_g4_i2|m.31123,lcl|c224026_g2_i4|m.9562,lcl|c218820_g4_i2|m.5974,lcl|c242793_g1_i1|m.30227,lcl|c223077_g2_i1|m.8858	
+GO:0010468	regulation of gene expression	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0051239	regulation of multicellular organismal process	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0019538	protein metabolic process	biological_process	1E0		lcl|c218703_g1_i4|m.5907,lcl|c224042_g7_i2|m.9570,lcl|c216953_g1_i3|m.4865,lcl|c212126_g1_i2|m.2626,lcl|c242193_g2_i1|m.29501,lcl|c221356_g3_i2|m.7588,lcl|c216377_g1_i3|m.4559,lcl|c218820_g4_i2|m.5974,lcl|c242793_g1_i1|m.30227,lcl|c232133_g1_i5|m.17039,lcl|c223077_g2_i1|m.8858,lcl|c240264_g4_i5|m.26985,lcl|c214032_g1_i4|m.3331,lcl|c217573_g1_i1|m.5252,lcl|c239210_g2_i1|m.25440,lcl|c233767_g1_i3|m.18989,lcl|c236174_g2_i1|m.21787	
+GO:0051246	regulation of protein metabolic process	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c242001_g1_i2|m.29236,lcl|c223077_g2_i1|m.8858	
+GO:0051247	positive regulation of protein metabolic process	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c223077_g2_i1|m.8858	
+GO:0051248	negative regulation of protein metabolic process	biological_process	1E0		lcl|c242001_g1_i2|m.29236	
+GO:1901564	organonitrogen compound metabolic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c218703_g1_i4|m.5907,lcl|c214032_g1_i4|m.3331,lcl|c237215_g1_i1|m.23031,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c218820_g4_i2|m.5974,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c223077_g2_i1|m.8858	
+GO:1901566	organonitrogen compound biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c218703_g1_i4|m.5907,lcl|c214032_g1_i4|m.3331,lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459,lcl|c218820_g4_i2|m.5974,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c223077_g2_i1|m.8858	
+GO:0006886	intracellular protein transport	biological_process	1E0		lcl|c218374_g4_i1|m.5754	
+GO:0051261	protein depolymerization	biological_process	1E0		lcl|c220300_g3_i1|m.6859	
+GO:1901575	organic substance catabolic process	biological_process	1E0		lcl|c224042_g7_i2|m.9570,lcl|c212126_g1_i2|m.2626	
+GO:1901576	organic substance biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c227188_g1_i1|m.12222,lcl|c218703_g1_i4|m.5907,lcl|c214032_g1_i4|m.3331,lcl|c239860_g1_i2|m.26443,lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459,lcl|c218820_g4_i2|m.5974,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c223077_g2_i1|m.8858	
+GO:0042364	water-soluble vitamin biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737	
+GO:0010498	proteasomal protein catabolic process	biological_process	1E0		lcl|c212126_g1_i2|m.2626	
+GO:0090304	nucleic acid metabolic process	biological_process	1E0		lcl|c243614_g4_i2|m.31123,lcl|c224026_g2_i4|m.9562	
+GO:0090305	nucleic acid phosphodiester bond hydrolysis	biological_process	1E0		lcl|c224026_g2_i4|m.9562	
+GO:0071702	organic substance transport	biological_process	1E0		lcl|c240251_g4_i2|m.26962,lcl|c243614_g4_i2|m.31123,lcl|c218374_g4_i1|m.5754	
+GO:0046907	intracellular transport	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c218374_g4_i1|m.5754	
+GO:0071704	organic substance metabolic process	biological_process	1E0		lcl|c224042_g7_i2|m.9570,lcl|c237215_g1_i1|m.23031,lcl|c212126_g1_i2|m.2626,lcl|c221356_g3_i2|m.7588,lcl|c216377_g1_i3|m.4559,lcl|c226769_g3_i1|m.11767,lcl|c232133_g1_i5|m.17039,lcl|c234789_g3_i1|m.20259,lcl|c223077_g2_i1|m.8858,lcl|c227188_g1_i1|m.12222,lcl|c240264_g4_i5|m.26985,lcl|c214032_g1_i4|m.3331,lcl|c224026_g2_i4|m.9562,lcl|c239210_g2_i1|m.25440,lcl|c233767_g1_i3|m.18989,lcl|c218703_g1_i4|m.5907,lcl|c238826_g2_i1|m.24957,lcl|c216953_g1_i3|m.4865,lcl|c239860_g1_i2|m.26443,lcl|c242193_g2_i1|m.29501,lcl|c218820_g4_i2|m.5974,lcl|c242793_g1_i1|m.30227,lcl|c230880_g3_i5|m.15737,lcl|c217573_g1_i1|m.5252,lcl|c243614_g4_i2|m.31123,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c236174_g2_i1|m.21787,lcl|c227206_g2_i7|m.12247,lcl|c239610_g1_i3|m.26053	
+GO:0071705	nitrogen compound transport	biological_process	1E0		lcl|c243614_g4_i2|m.31123	
+GO:1901605	alpha-amino acid metabolic process	biological_process	1E0		lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459	
+GO:1901607	alpha-amino acid biosynthetic process	biological_process	1E0		lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459	
+GO:2000026	regulation of multicellular organismal development	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0016539	intein-mediated protein splicing	biological_process	1E0		lcl|c242793_g1_i1|m.30227	
+GO:1901615	organic hydroxy compound metabolic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737	
+GO:2000027	regulation of organ morphogenesis	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:1901617	organic hydroxy compound biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737	
+GO:0034220	ion transmembrane transport	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0006950	response to stress	biological_process	1E0		lcl|c238919_g4_i6|m.25079,lcl|c221114_g2_i1|m.7405	
+GO:0071230	cellular response to amino acid stimulus	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0051336	regulation of hydrolase activity	biological_process	1E0		lcl|c233818_g2_i6|m.19032,lcl|c242001_g1_i2|m.29236	
+GO:0010556	regulation of macromolecule biosynthetic process	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0010557	positive regulation of macromolecule biosynthetic process	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0006979	response to oxidative stress	biological_process	1E0		lcl|c238919_g4_i6|m.25079	
+GO:0010562	positive regulation of phosphorus metabolic process	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0034248	regulation of cellular amide metabolic process	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0051346	negative regulation of hydrolase activity	biological_process	1E0		lcl|c233818_g2_i6|m.19032,lcl|c242001_g1_i2|m.29236	
+GO:0034250	positive regulation of cellular amide metabolic process	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0019637	organophosphate metabolic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c239860_g1_i2|m.26443,lcl|c223247_g3_i6|m.8971,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:1901657	glycosyl compound metabolic process	biological_process	1E0		lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0070727	cellular macromolecule localization	biological_process	1E0		lcl|c218374_g4_i1|m.5754,lcl|c216621_g3_i1|m.4676	
+GO:1901659	glycosyl compound biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0006996	organelle organization	biological_process	1E0		lcl|c231859_g5_i5|m.16713,lcl|c224201_g3_i8|m.9658,lcl|c227322_g4_i4|m.12336,lcl|c220300_g3_i1|m.6859	
+GO:0023052	signaling	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0042451	purine nucleoside biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0045861	negative regulation of proteolysis	biological_process	1E0		lcl|c242001_g1_i2|m.29236	
+GO:0042455	ribonucleoside biosynthetic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0070887	cellular response to chemical stimulus	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0060429	epithelium development	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0023051	regulation of signaling	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0007015	actin filament organization	biological_process	1E0		lcl|c231859_g5_i5|m.16713,lcl|c220300_g3_i1|m.6859	
+GO:0023056	positive regulation of signaling	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0043603	cellular amide metabolic process	biological_process	1E0		lcl|c218703_g1_i4|m.5907,lcl|c214032_g1_i4|m.3331,lcl|c237215_g1_i1|m.23031,lcl|c218820_g4_i2|m.5974,lcl|c223077_g2_i1|m.8858	
+GO:0043604	amide biosynthetic process	biological_process	1E0		lcl|c218703_g1_i4|m.5907,lcl|c214032_g1_i4|m.3331,lcl|c237215_g1_i1|m.23031,lcl|c218820_g4_i2|m.5974,lcl|c223077_g2_i1|m.8858	
+GO:0019673	GDP-mannose metabolic process	biological_process	1E0		lcl|c239610_g1_i3|m.26053	
+GO:0010604	positive regulation of macromolecule metabolic process	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c223077_g2_i1|m.8858	
+GO:0010605	negative regulation of macromolecule metabolic process	biological_process	1E0		lcl|c242001_g1_i2|m.29236	
+GO:0031123	RNA 3'-end processing	biological_process	1E0		lcl|c224026_g2_i4|m.9562	
+GO:0031124	mRNA 3'-end processing	biological_process	1E0		lcl|c224026_g2_i4|m.9562	
+GO:0010608	posttranscriptional regulation of gene expression	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0090407	organophosphate biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c239860_g1_i2|m.26443,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0019682	glyceraldehyde-3-phosphate metabolic process	biological_process	1E0		lcl|c223247_g3_i6|m.8971	
+GO:0001101	response to acid chemical	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:1901698	response to nitrogen compound	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0007040	lysosome organization	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:1901699	cellular response to nitrogen compound	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:1901700	response to oxygen-containing compound	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:2000112	regulation of cellular macromolecule biosynthetic process	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:1901701	cellular response to oxygen-containing compound	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0045901	positive regulation of translational elongation	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0043624	cellular protein complex disassembly	biological_process	1E0		lcl|c220300_g3_i1|m.6859	
+GO:0019693	ribose phosphate metabolic process	biological_process	1E0		lcl|c223247_g3_i6|m.8971,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0045905	positive regulation of translational termination	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0043631	RNA polyadenylation	biological_process	1E0		lcl|c224026_g2_i4|m.9562	
+GO:0043632	modification-dependent macromolecule catabolic process	biological_process	1E0		lcl|c212126_g1_i2|m.2626	
+GO:0010628	positive regulation of gene expression	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
+GO:0071822	protein complex subunit organization	biological_process	1E0		lcl|c231859_g5_i5|m.16713,lcl|c220300_g3_i1|m.6859	
+GO:0044699	single-organism process	biological_process	1E0		lcl|c238919_g4_i6|m.25079,lcl|c237215_g1_i1|m.23031,lcl|c226769_g3_i1|m.11767,lcl|c243349_g1_i4|m.30872,lcl|c231085_g3_i1|m.15955,lcl|c234789_g3_i1|m.20259,lcl|c224201_g3_i8|m.9658,lcl|c227562_g6_i1|m.12582,lcl|c226216_g1_i2|m.11298,lcl|c227188_g1_i1|m.12222,lcl|c234446_g3_i2|m.19850,lcl|c234955_g3_i3|m.20445,lcl|c220300_g3_i1|m.6859,lcl|c241174_g2_i10|m.28286,lcl|c229881_g6_i6|m.14719,lcl|c231859_g5_i5|m.16713,lcl|c227332_g2_i2|m.12341,lcl|c238826_g2_i1|m.24957,lcl|c239860_g1_i2|m.26443,lcl|c216621_g3_i1|m.4676,lcl|c230880_g3_i5|m.15737,lcl|c227322_g4_i4|m.12336,lcl|c219883_g1_i2|m.6624,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c236174_g2_i1|m.21787,lcl|c230862_g3_i1|m.15714,lcl|c227206_g2_i7|m.12247,lcl|c236035_g1_i2|m.21599	
+GO:0044700	single organism signaling	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0030029	actin filament-based process	biological_process	1E0		lcl|c231859_g5_i5|m.16713,lcl|c220300_g3_i1|m.6859	
+GO:0071826	ribonucleoprotein complex subunit organization	biological_process	1E0		lcl|c218820_g4_i2|m.5974	
+GO:0010639	negative regulation of organelle organization	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0044710	single-organism metabolic process	biological_process	1E0		lcl|c229881_g6_i6|m.14719,lcl|c238826_g2_i1|m.24957,lcl|c238919_g4_i6|m.25079,lcl|c239860_g1_i2|m.26443,lcl|c237215_g1_i1|m.23031,lcl|c226769_g3_i1|m.11767,lcl|c243349_g1_i4|m.30872,lcl|c234789_g3_i1|m.20259,lcl|c227562_g6_i1|m.12582,lcl|c230880_g3_i5|m.15737,lcl|c226216_g1_i2|m.11298,lcl|c227188_g1_i1|m.12222,lcl|c223247_g3_i6|m.8971,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c230862_g3_i1|m.15714,lcl|c227206_g2_i7|m.12247,lcl|c241174_g2_i10|m.28286,lcl|c236035_g1_i2|m.21599	
+GO:0005975	carbohydrate metabolic process	biological_process	1E0		lcl|c238826_g2_i1|m.24957,lcl|c223247_g3_i6|m.8971	
+GO:0044711	single-organism biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c227188_g1_i1|m.12222,lcl|c239860_g1_i2|m.26443,lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0035383	thioester metabolic process	biological_process	1E0		lcl|c227188_g1_i1|m.12222	
+GO:0035384	thioester biosynthetic process	biological_process	1E0		lcl|c227188_g1_i1|m.12222	
+GO:0010646	regulation of cell communication	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0010647	positive regulation of cell communication	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0071840	cellular component organization or biogenesis	biological_process	1E0		lcl|c231859_g5_i5|m.16713,lcl|c224201_g3_i8|m.9658,lcl|c227322_g4_i4|m.12336,lcl|c220300_g3_i1|m.6859,lcl|c218820_g4_i2|m.5974,lcl|c216621_g3_i1|m.4676	
+GO:0019725	cellular homeostasis	biological_process	1E0		lcl|c227562_g6_i1|m.12582,lcl|c227332_g2_i2|m.12341,lcl|c219883_g1_i2|m.6624,lcl|c236035_g1_i2|m.21599	
+GO:0045937	positive regulation of phosphate metabolic process	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0044723	single-organism carbohydrate metabolic process	biological_process	1E0		lcl|c238826_g2_i1|m.24957,lcl|c223247_g3_i6|m.8971	
+GO:0032259	methylation	biological_process	1E0		lcl|c233449_g1_i1|m.18576	
+GO:0005996	monosaccharide metabolic process	biological_process	1E0		lcl|c238826_g2_i1|m.24957,lcl|c223247_g3_i6|m.8971	
+GO:0032268	regulation of cellular protein metabolic process	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c242001_g1_i2|m.29236,lcl|c223077_g2_i1|m.8858	
+GO:0032269	negative regulation of cellular protein metabolic process	biological_process	1E0		lcl|c242001_g1_i2|m.29236	
+GO:0019752	carboxylic acid metabolic process	biological_process	1E0		lcl|c227188_g1_i1|m.12222,lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459,lcl|c226769_g3_i1|m.11767,lcl|c234789_g3_i1|m.20259,lcl|c227206_g2_i7|m.12247	
+GO:0032270	positive regulation of cellular protein metabolic process	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c223077_g2_i1|m.8858	
+GO:0006006	glucose metabolic process	biological_process	1E0		lcl|c223247_g3_i6|m.8971	
+GO:0032271	regulation of protein polymerization	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0032272	negative regulation of protein polymerization	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0006457	protein folding	biological_process	1E0		lcl|c233767_g1_i3|m.18989,lcl|c231068_g6_i2|m.15939	
+GO:0006012	galactose metabolic process	biological_process	1E0		lcl|c238826_g2_i1|m.24957	
+GO:0042026	protein refolding	biological_process	1E0		lcl|c231068_g6_i2|m.15939	
+GO:0033353	S-adenosylmethionine cycle	biological_process	1E0		lcl|c221189_g3_i1|m.7459	
+GO:0044763	single-organism cellular process	biological_process	1E0		lcl|c231859_g5_i5|m.16713,lcl|c227332_g2_i2|m.12341,lcl|c239860_g1_i2|m.26443,lcl|c237215_g1_i1|m.23031,lcl|c226769_g3_i1|m.11767,lcl|c216621_g3_i1|m.4676,lcl|c231085_g3_i1|m.15955,lcl|c234789_g3_i1|m.20259,lcl|c224201_g3_i8|m.9658,lcl|c227562_g6_i1|m.12582,lcl|c230880_g3_i5|m.15737,lcl|c227188_g1_i1|m.12222,lcl|c234955_g3_i3|m.20445,lcl|c219883_g1_i2|m.6624,lcl|c223247_g3_i6|m.8971,lcl|c220300_g3_i1|m.6859,lcl|c221189_g3_i1|m.7459,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c236174_g2_i1|m.21787,lcl|c227206_g2_i7|m.12247,lcl|c236035_g1_i2|m.21599	
+GO:0052547	regulation of peptidase activity	biological_process	1E0		lcl|c242001_g1_i2|m.29236	
+GO:0044765	single-organism transport	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c234446_g3_i2|m.19850,lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097,lcl|c231085_g3_i1|m.15955	
+GO:0044767	single-organism developmental process	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0090501	RNA phosphodiester bond hydrolysis	biological_process	1E0		lcl|c224026_g2_i4|m.9562	
+GO:0051493	regulation of cytoskeleton organization	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0051494	negative regulation of cytoskeleton organization	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0042592	homeostatic process	biological_process	1E0		lcl|c227562_g6_i1|m.12582,lcl|c227322_g4_i4|m.12336,lcl|c227332_g2_i2|m.12341,lcl|c219883_g1_i2|m.6624,lcl|c236035_g1_i2|m.21599	
+GO:0030042	actin filament depolymerization	biological_process	1E0		lcl|c220300_g3_i1|m.6859	
+GO:0007154	cell communication	biological_process	1E0		lcl|c234955_g3_i3|m.20445,lcl|c236174_g2_i1|m.21787	
+GO:0098655	cation transmembrane transport	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0042989	sequestering of actin monomers	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0030036	actin cytoskeleton organization	biological_process	1E0		lcl|c231859_g5_i5|m.16713,lcl|c220300_g3_i1|m.6859	
+GO:0098660	inorganic ion transmembrane transport	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0098662	inorganic cation transmembrane transport	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0007164	establishment of tissue polarity	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0030832	regulation of actin filament length	biological_process	1E0		lcl|c216621_g3_i1|m.4676	
+GO:0007166	cell surface receptor signaling pathway	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0007167	enzyme linked receptor protein signaling pathway	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0008610	lipid biosynthetic process	biological_process	1E0		lcl|c239860_g1_i2|m.26443	
+GO:0008614	pyridoxine metabolic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737	
+GO:0008615	pyridoxine biosynthetic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737	
+GO:0042632	cholesterol homeostasis	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0046034	ATP metabolic process	biological_process	1E0		lcl|c214108_g4_i4|m.3369,lcl|c231281_g6_i3|m.16097	
+GO:0006081	cellular aldehyde metabolic process	biological_process	1E0		lcl|c230880_g3_i5|m.15737,lcl|c223247_g3_i6|m.8971	
+GO:0030162	regulation of proteolysis	biological_process	1E0		lcl|c242001_g1_i2|m.29236	
+GO:0006082	organic acid metabolic process	biological_process	1E0		lcl|c227188_g1_i1|m.12222,lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459,lcl|c226769_g3_i1|m.11767,lcl|c234789_g3_i1|m.20259,lcl|c227206_g2_i7|m.12247	
+GO:0030163	protein catabolic process	biological_process	1E0		lcl|c224042_g7_i2|m.9570,lcl|c212126_g1_i2|m.2626	
+GO:0006084	acetyl-CoA metabolic process	biological_process	1E0		lcl|c227188_g1_i1|m.12222	
+GO:0006085	acetyl-CoA biosynthetic process	biological_process	1E0		lcl|c227188_g1_i1|m.12222	
+GO:0006086	acetyl-CoA biosynthetic process from pyruvate	biological_process	1E0		lcl|c227188_g1_i1|m.12222	
+GO:0006090	pyruvate metabolic process	biological_process	1E0		lcl|c227188_g1_i1|m.12222	
+GO:0006091	generation of precursor metabolites and energy	biological_process	1E0		lcl|c226769_g3_i1|m.11767,lcl|c234789_g3_i1|m.20259,lcl|c227206_g2_i7|m.12247,lcl|c236035_g1_i2|m.21599	
+GO:0006098	pentose-phosphate shunt	biological_process	1E0		lcl|c223247_g3_i6|m.8971	
+GO:0006099	tricarboxylic acid cycle	biological_process	1E0		lcl|c226769_g3_i1|m.11767,lcl|c234789_g3_i1|m.20259,lcl|c227206_g2_i7|m.12247	
+GO:0006101	citrate metabolic process	biological_process	1E0		lcl|c226769_g3_i1|m.11767,lcl|c234789_g3_i1|m.20259,lcl|c227206_g2_i7|m.12247	
+GO:0008652	cellular amino acid biosynthetic process	biological_process	1E0		lcl|c237215_g1_i1|m.23031,lcl|c221189_g3_i1|m.7459	
+GO:0006102	isocitrate metabolic process	biological_process	1E0		lcl|c226769_g3_i1|m.11767	
+GO:0008654	phospholipid biosynthetic process	biological_process	1E0		lcl|c239860_g1_i2|m.26443	
+GO:0009719	response to endogenous stimulus	biological_process	1E0		lcl|c227322_g4_i4|m.12336	
+GO:0016055	Wnt signaling pathway	biological_process	1E0		lcl|c236174_g2_i1|m.21787	
+GO:0031323	regulation of cellular metabolic process	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c242001_g1_i2|m.29236,lcl|c223077_g2_i1|m.8858	
+GO:0031324	negative regulation of cellular metabolic process	biological_process	1E0		lcl|c242001_g1_i2|m.29236	
+GO:0055114	oxidation-reduction process	biological_process	1E0		lcl|c229881_g6_i6|m.14719,lcl|c238919_g4_i6|m.25079,lcl|c226769_g3_i1|m.11767,lcl|c243349_g1_i4|m.30872,lcl|c234789_g3_i1|m.20259,lcl|c227562_g6_i1|m.12582,lcl|c230880_g3_i5|m.15737,lcl|c226216_g1_i2|m.11298,lcl|c227188_g1_i1|m.12222,lcl|c223247_g3_i6|m.8971,lcl|c230862_g3_i1|m.15714,lcl|c227206_g2_i7|m.12247,lcl|c241174_g2_i10|m.28286,lcl|c236035_g1_i2|m.21599	
+GO:0031325	positive regulation of cellular metabolic process	biological_process	1E0		lcl|c227322_g4_i4|m.12336,lcl|c223077_g2_i1|m.8858	
+GO:0098754	detoxification	biological_process	1E0		lcl|c227562_g6_i1|m.12582,lcl|c238919_g4_i6|m.25079	
+GO:0031326	regulation of cellular biosynthetic process	biological_process	1E0		lcl|c223077_g2_i1|m.8858	
