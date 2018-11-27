@@ -191,6 +191,14 @@ Qspec was ran in Putty through the tephra node of the UWPR genome sciences clust
 The output files end with the suffix .txt_qspec and are found [here](https://github.com/Jeremyfishb/Jeremy-coral/tree/master/analysis/qspec)
 
 
+#MetaGOmics
+
+MetaGomics is a web-based tool that helps visualize protein functions among treatment groups compared to the the known proteome (in this case the "proteome" for *M. capitata* determined by MS). The [fasta results](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/data/Montiporacapitata.contam.fasta) for *M. capitata* were sent to Mike Riffle via this [website](https://www.yeastrc.org/metagomics/home.do) searching the "uniprot sprot" database with a cutoff of 1E10. M. Riffle then set up this [webpage](https://meta.yeastrc.org/compgo_emma_montipora/pages/goAnalysisForm.jsp) where protein lists can be entered and a map and raw data of Gene Ontology function are generated. 
+
+The generated text files can be found [here](https://github.com/Jeremyfishb/Jeremy-coral/tree/master/analysis/GO_analysis_Riffle)
+
+The generated maps can be found [here](
+
 
 
 
