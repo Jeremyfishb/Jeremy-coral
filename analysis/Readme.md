@@ -197,7 +197,11 @@ MetaGomics is a web-based tool that helps visualize protein functions among trea
 
 The generated text files can be found [here](https://github.com/Jeremyfishb/Jeremy-coral/tree/master/analysis/GO_analysis_Riffle)
 
-The generated maps can be found [here](
+The maps are currently of very low quality and not in a format I am familiar with. They can easily be generated again by entering the significant protein list for each treatment [here](https://meta.yeastrc.org/compgo_emma_montipora/pages/goAnalysisForm.jsp).
+
+
+
+
 
 
 
