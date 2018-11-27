@@ -1,5 +1,5 @@
 #Significant proteins for each treatment
-
+#
 
 ##Non-bleached samples p <0.001
 
@@ -549,6 +549,86 @@ A0A2B4RL72	Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)
 A0A2B4S4I2	L-fucose kinase
 
 A0A2B4SNA6	WD40 repeat-containing protein SMU1
+
+
+##inner tissue
+
+A0A2B4S0S9	Glutamate dehydrogenase
+
+A0A2B4RTM1	Pyruvate dehydrogenase E1 component subunit alpha (EC 1.2.4.1)
+
+A0A2B4REA2	Dehydrogenase/reductase SDR family member on chromosome X
+
+B3S5U7	Uncharacterized protein
+
+A0A2B4SMT9	Sulfide:quinone oxidoreductase, mitochondrial
+
+A8C9L8	Beta gamma crystallin isoform 8
+
+A0A2B4RGC0	Uncharacterized oxidoreductase
+
+A0A2B4RS47	Alpha-1,4 glucan phosphorylase (EC 2.4.1.1)
+
+A0A2B4RQU1	Uncharacterized protein
+
+A0A2B4S4V7	Neural cell adhesion molecule 2
+
+A0A2B4S7M4	Histone H4
+
+A7S1B9	V-type proton ATPase subunit a
+
+A0A2B4RVF8	L-lactate dehydrogenase
+
+A0A2B4RJ51	Glutathione S-transferase
+
+A0A2B4SIF9	Dorsal-ventral patterning tolloid-like protein 1
+
+W4YL78	Uncharacterized protein
+
+A0A2B4RGT2	Multiple epidermal growth factor-like domains protein 6
+
+A0A2B4S170	Oncoprotein-induced transcript 3 protein
+
+W4XEI0	Uncharacterized protein
+
+A0A2B4SY05	Matrilin-4
+
+A0A2B4S7P5	Uncharacterized protein
+
+N/A	N/A
+
+N/A N/A
+
+B3VMK3	Triglyceride lipase
+
+N/A	N/A
+
+A0A2B4SJ69	Uncharacterized protein
+
+A0A2B4S029	Aminopeptidase (EC 3.4.11.-)
+
+A0A2B4SL13	Protein DD3-3
+
+A0A2B4T0W8	40S ribosomal protein S6
+
+A0A2B4S180	Collagen triple helix repeat-containing protein 1
+
+A0A2B4RNX2	A disintegrin and metalloproteinase with thrombospondin motifs 12
+
+A0A2B4RDE1	Uncharacterized protein
+
+A0A2B4RZR2	Endonuclease domain-containing 1 protein
+
+A0A2B4SIP6	Arylacetamide deacetylase
+
+A0A2B4RCY7	Uncharacterized protein
+
+A7RST0	Predicted protein
+
+A0A2B4SD90	Uncharacterized protein CXorf38-like
+
+A0A2B4RGS4	Sushi, von Willebrand factor type A, EGF and pentraxin domain-containing protein 1
+
 
 
 
