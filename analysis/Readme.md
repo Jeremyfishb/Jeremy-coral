@@ -8,6 +8,7 @@ Each heading represents a distinct step in the analysis and under each heading t
 
 ###Issues
 
+
 Prior to running the MS, there were a few issues with sample preparation. 
 
 - Sample 69B, both inner and outer, had very low protein concentration.
@@ -17,6 +18,7 @@ Prior to running the MS, there were a few issues with sample preparation.
 
 
 # Comet search
+
 
 A comet search was run on all MS generated .raw files. The comet search was run using Putty command line via the UWPR cluster in the UW department of Genome Sciences. This search compares the proteins found in the samples to the genome for *Montipora capitata* to quantify which proteins were being expressed at the time of sampling. The comet searches were run three times: once for inner matrix samples, once for outer matrix samples and once for Rerun samples (the Reruns were reran because the column started to break down halfway through MS analysis, so we replaced it and reran samples that were not looking well). 
 
@@ -56,6 +58,7 @@ Rerun inner matrix:
 
 # Peptideprophet and Proteinprophet
 
+
 Peptide- and Protein-prophet were used to validate the quality of the peptides and proteins identified in Comet searches. Additionally, peptide and protein quantities are given during the anlysis allowing us to QC some of the issues we had with sample prep (see above). To run the prophets, xinteract files were generated using Putty and Comet programs, see below to follow the steps. 
 
 To run the prophets, the following directories were opened:
@@ -85,6 +88,7 @@ A list of peptide and protein counts for the samples can be found here:
 
 # Abacus
 
+
 Abacus was run on all coral samples to extract adjusted spectral counts to be used to visualize and quantify protein data using R between different experimental groups (e.g. inner, outer, bleached and non-bleached).
 
 Because Abacus attempts to grab all files in a directory, all interact-.pep.xml, interact-.prot.xml and the interact-COMBINED.prot.xml were comliled into this single directory:
@@ -109,6 +113,7 @@ A .csv was also generated (not sure how again) for use in R, and can be found he
 
 
 #NMDS plots in R
+
 
 To visually compare differences in protein expression between coral treatments (bleach, non-bleached and inner, outer tissue) NMDS plots were generated in R. The code used was provided by Emma Timmins-Schifman. It essentially does a cluster analysis based on similarity of protein content in each sample based on these metrics:
 
@@ -156,7 +161,9 @@ I need to talk to Brook about the inner sample figure where a warning message wa
 In metaMDS(Mcap.tra, distance = "bray", k = 2, trymax = 100, autotransform = F) :
   stress is (nearly) zero: you may have insufficient data*
 
+
 #Eignevectors
+
 
 Eigenvectors help show which proteins are driving the differences between cluster groups in the nmds plots. They were calculated in R using the envfit function in the vegan package. To see the code used to produce this, scroll towards the bottom of any of the R scripts for inner, outer, bleached or non-bleached [here](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/scripts/R/R_project_Abacus_analysis/Abacus_data_exploration.Rproj).
 
@@ -166,6 +173,7 @@ As there was a clear x-axis division between inner and out samples, the eigenvec
 
 
 #Qspec
+
 
 Qspec is another way to determine significant protein differences between treatment groups. It takes the number of unique proteins found in each sample from two treatments, a control and a treatment, and compares them giving a list of significantly up-regulated proteins in the treatment group. For these analyses, non-bleached or outer tissue were the controls and bleached or inner tissues were the treatments. 
 
@@ -193,6 +201,7 @@ The output files end with the suffix .txt_qspec and are found [here](https://git
 
 #MetaGOmics
 
+
 MetaGomics is a web-based tool that helps visualize protein functions among treatment groups compared to the the known proteome (in this case the "proteome" for *M. capitata* determined by MS). The [fasta results](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/data/Montiporacapitata.contam.fasta) for *M. capitata* were sent to Mike Riffle via this [website](https://www.yeastrc.org/metagomics/home.do) searching the "uniprot sprot" database with a cutoff of 1E10. M. Riffle then set up this [webpage](https://meta.yeastrc.org/compgo_emma_montipora/pages/goAnalysisForm.jsp) where protein lists can be entered and a map and raw data of Gene Ontology function are generated. 
 
 The generated text files can be found [here](https://github.com/Jeremyfishb/Jeremy-coral/tree/master/analysis/GO_analysis_Riffle)
@@ -202,6 +211,9 @@ The maps are currently of very low quality and not in a format I am familiar wit
 
 
 #Visualization
+
+
+![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/analysis/Mcap_alltreats_venn.png)
 
 ![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/scripts/R/figures_Abacus_analysis/Mcap_prot_eigen_subset_NMDS.png)
 
