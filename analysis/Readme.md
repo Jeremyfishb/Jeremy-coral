@@ -6,7 +6,7 @@ Each heading represents a distinct step in the analysis and under each heading t
 
 **Commands are in bold**
 
-###Issues
+### Issues
 
 
 Prior to running the MS, there were a few issues with sample preparation. 
