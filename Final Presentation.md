@@ -10,7 +10,7 @@
 
 # What did I do?
 
-##Workflow
+## Workflow
 
 ![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/Visualization/FISH_546_Presentation_Flow_Chart.png)
 
@@ -25,7 +25,6 @@
 MS data stored in UW Genome Sciences Cluster
 
 ## Comet Search
-
 
 
 - Compares proteins found in samples to *M. capitata* fasta results
@@ -65,6 +64,8 @@ Command line entries:
 Ran in directory where .RAW MS data is stored
 
 Allows to open website for each peptide and protein to see score and abundance
+
+![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/Visualization/Prot_prophet_screenshot.png)
 
 
 ## Abacus
