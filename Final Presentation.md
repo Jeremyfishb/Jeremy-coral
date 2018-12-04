@@ -81,7 +81,11 @@ Command line entries:
 Ran in directory where interact-*xml files were stored
 
 
-## Protein Counts
+## Protein Counts 
+
+### 2311 Unique proteins
+
+### Venn diagram
 
 ![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/Visualization/Mcap_alltreats_venn.png)
 
