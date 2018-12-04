@@ -63,7 +63,9 @@ Command line entries:
 
 Ran in directory where .RAW MS data were stored
 
-Allows to open website for each samples to see peptide and protein scores and abundances
+
+
+- Allows to open website for each samples to see peptide and protein scores and abundances for each sample
 
 ![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/Visualization/Prot_prophet_screenshot.png)
 
