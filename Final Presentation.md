@@ -61,7 +61,7 @@ Command line entries:
 
 **runCometQ --wocomet --single** ***.mzXML**
 
-Ran in directory where .RAW MS data is stored
+Ran in directory where .RAW MS data were stored
 
 Allows to open website for each peptide and protein to see score and abundance
 
@@ -72,7 +72,13 @@ Allows to open website for each peptide and protein to see score and abundance
 
 
 
+- Takes all interact-*.xml files and compiles a bunch of parameters that can used to analyze the data further
 
+Command line entries:
+
+**java -Xmx16g -jar /net/pr/vol1/ProteomicsResource/bin/abacus.jar -p Abacus_parameters.txt**
+
+Ran in directory where interact-*xml files were stored
 
 
 ## Protein Counts
@@ -81,9 +87,28 @@ Allows to open website for each peptide and protein to see score and abundance
 
 ## Uniprot
 
+- Gets protein annotations from database
+- Essentially gives real protein names, and the genes that made them, to the fasta ID's
+
+Example: 
+
+**MS ID**== **Fasta ID** == **Protein name** ==
+**Gene name**
+
+**lcl|c224670_g2_i1|m.10052**==
+**A0A2B4S7C3**==
+**Hemicentin-1**==
+**HMCN1 AWC38_SpisGene9568**
+
+
 ## Eigenvectors
 
+- Calculated in R using "Bray" index from NMDS calculations
+- Show which proteins influence protein grouping
+
 ## NMDS Plots
+
+![](
 
 ## Qspec
 
