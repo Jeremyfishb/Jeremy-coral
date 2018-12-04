@@ -18,8 +18,7 @@
 
 ## Mass Spectrometry
 
-![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/Visualization/Mass_spec.png)
-
+![](
 
 
 
