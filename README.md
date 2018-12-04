@@ -53,14 +53,33 @@ After those proteins have been identified, their functions will be identified (i
  
 
 
-# The End
+# The End of the Quarter (FISH 546)
 
-## Question
+For a detailed description of the steps taken in this analysis to date, see [here](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/analysis/Readme.md)
 
+A condensed version of workflow with brief descriptions, including the **Research question**, **What I Did**, **Visualization** and **Next Steps** can be found [here](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/Final%20Presentation.md).
 
+In short, here's my **Questions**
 
-## What I did
+## *What are the differences in protein expression between a coral's tissue and its skeletal matrix?*
 
-## Visualization
+## *Does coral bleaching affect protein expression?*
+
+Here's **What I did**:
+
+![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/Visualization/FISH_546_Presentation_Flow_Chart.png)
+
+Here's a little **Visualization** of the results:
+
+![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/Visualization/Mcap_alltreats_venn.png)
+
+And here's the next steps:
+
+- Figure out what to do with Qspec data
+- Investigate Gene Ontology results
+- Determine functional differences from proteins expressed between coral tissue and coral skeletal matrix
+- Make some biological conclusions
+- Write it up!
+
 
 
