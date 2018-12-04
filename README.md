@@ -73,7 +73,9 @@ Here's a little **Visualization** of the results:
 
 ![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/Visualization/Mcap_alltreats_venn.png)
 
-And here's the next steps:
+![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/Visualization/Mcap_prot_eigen_subset_NMDS.png)
+
+And here's the **next steps**:
 
 - Figure out what to do with Qspec data
 - Investigate Gene Ontology results
