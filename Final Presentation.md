@@ -104,15 +104,49 @@ Example:
 ## Eigenvectors
 
 - Calculated in R using "Bray" index from NMDS calculations
-- Show which proteins influence protein grouping
+- Show which proteins influence protein grouping and how significant those proteins were
 
 ## NMDS Plots
 
-![](
+![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/Visualization/Mcap_prot_eigen_subset_NMDS.png)
+
+- Just a random subset, for now...
+
+# Next Steps
 
 ## Qspec
 
+- Another way to determine significant proteins expressed in each treatment
+
+Formatted an excel spreadsheet with a few select parameters
+- Protein ID
+- Spectral counts
+- Protein lengths
+- Treatment or control
+
+Command line entries:
+
+**qspec-param Mcap_non_bleached_spec_counts_for_qspec.txt 2000 10000 0**
+
+
+- Still working with these data
+	- What they mean
+	- How to display
+
 ## Gene Ontology: David & MetaGOmics
+
+- Gives insight into functional pathways at the molecular level
+- Identifies proteins from samples and where they are in those pathways
+- Can not get **David** to work, likely because *M. capitata* genome not yet annotated
+- Just started working with **MetaGOmics**, seems to be working!
+
+## Moving Forward
+
+- Figure out what to do with Qspec data
+- Investigate Gene Ontology results
+- Determine functional differences from proteins expressed between coral tissue and coral skeletal matrix
+- Make some biological conclusions
+- Write it up!
 
 
 
