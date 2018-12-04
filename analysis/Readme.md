@@ -218,6 +218,8 @@ The diagram was made by submitting lists of proteins from each treatment to [Ven
 
 ![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/analysis/Mcap_alltreats_venn.png)
 
+Below is a final NMDS ordination plot showing how all treatment types clustered using Bray dissimilarity index. The vectors represent a subset of significant (p < 0.001) proteins that influenced the ordination pattern. Code for making this figure can be found [here](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/scripts/R/R_project_Abacus_analysis/All_good_samples_NMDS_eigenvectors.R)
+
 ![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/scripts/R/figures_Abacus_analysis/Mcap_prot_eigen_subset_NMDS.png)
 
 
