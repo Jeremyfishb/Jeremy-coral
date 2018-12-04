@@ -8,7 +8,9 @@
 
 
 
-# Workflow
+# What did I do?
+
+##Workflow
 
 ![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/Visualization/FISH_546_Presentation_Flow_Chart.png)
 
@@ -20,9 +22,57 @@
 
 ![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/Visualization/Mass_spec.png)
 
-## Commet Search
+MS data stored in UW Genome Sciences Cluster
+
+## Comet Search
+
+
+
+- Compares proteins found in samples to *M. capitata* fasta results
+
+Command line entries:
+
+**convert.sh** ***.RAW**
+
+**runCometQ** ***.RAW**
+
+
+
+- Ran in directory where .RAW MS data is stored
+
+
+
+- Converts .RAW files to .mzXML files
+
+## Peptide and Protein Prophet
+
+
+
+- Gives peptide and protein counts based on spectral counts
+
+
+
+- Validates quality of peptide and proteins identified by Comet search
+
+
+
+- Converts .mzXML files to interact-*.xml files
+
+Command line entries:
+
+**runCometQ --wocomet --single** ***.mzXML**
+
+Ran in directory where .RAW MS data is stored
+
+Allows to open website for each peptide and protein to see score and abundance
+
 
 ## Abacus
+
+
+
+
+
 
 ## Protein Counts
 
