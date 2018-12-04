@@ -71,7 +71,11 @@ Here's **What I did**:
 
 Here's a little **Visualization** of the results:
 
+Venn diagram
+
 ![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/Visualization/Mcap_alltreats_venn.png)
+
+NMDS plot with subset of significant eigenvectors
 
 ![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/Visualization/Mcap_prot_eigen_subset_NMDS.png)
 
