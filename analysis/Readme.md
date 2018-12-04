@@ -6,7 +6,7 @@ Each heading represents a distinct step in the analysis and under each heading t
 
 **Commands are in bold**
 
-###Issues
+### Issues
 
 
 Prior to running the MS, there were a few issues with sample preparation. 
@@ -112,7 +112,7 @@ A .csv was also generated (not sure how again) for use in R, and can be found he
 *~/Documents/GitHub/Jeremy-coral/data/Abacus_output.csv* or [here](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/data/Abacus_output.csv)
 
 
-#NMDS plots in R
+# NMDS plots in R
 
 
 To visually compare differences in protein expression between coral treatments (bleach, non-bleached and inner, outer tissue) NMDS plots were generated in R. The code used was provided by Emma Timmins-Schifman. It essentially does a cluster analysis based on similarity of protein content in each sample based on these metrics:
@@ -162,7 +162,7 @@ In metaMDS(Mcap.tra, distance = "bray", k = 2, trymax = 100, autotransform = F) 
   stress is (nearly) zero: you may have insufficient data*
 
 
-#Eignevectors
+# Eignevectors
 
 
 Eigenvectors help show which proteins are driving the differences between cluster groups in the nmds plots. They were calculated in R using the envfit function in the vegan package. To see the code used to produce this, scroll towards the bottom of any of the R scripts for inner, outer, bleached or non-bleached [here](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/scripts/R/R_project_Abacus_analysis/Abacus_data_exploration.Rproj).
@@ -172,7 +172,7 @@ Eigenvectors were displayed visually on nmds plots [here](https://github.com/Jer
 As there was a clear x-axis division between inner and out samples, the eigenvector lists will be used to identify the proteins pulling the cluster grouping towards the inner samples (right, positive values) and outer samples (left, negative values).
 
 
-#Qspec
+# Qspec
 
 
 Qspec is another way to determine significant protein differences between treatment groups. It takes the number of unique proteins found in each sample from two treatments, a control and a treatment, and compares them giving a list of significantly up-regulated proteins in the treatment group. For these analyses, non-bleached or outer tissue were the controls and bleached or inner tissues were the treatments. 
@@ -199,7 +199,7 @@ Qspec was ran in Putty through the tephra node of the UWPR genome sciences clust
 The output files end with the suffix .txt_qspec and are found [here](https://github.com/Jeremyfishb/Jeremy-coral/tree/master/analysis/qspec)
 
 
-#MetaGOmics
+# MetaGOmics
 
 
 MetaGomics is a web-based tool that helps visualize protein functions among treatment groups compared to the the known proteome (in this case the "proteome" for *M. capitata* determined by MS). The [fasta results](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/data/Montiporacapitata.contam.fasta) for *M. capitata* were sent to Mike Riffle via this [website](https://www.yeastrc.org/metagomics/home.do) searching the "uniprot sprot" database with a cutoff of 1E10. M. Riffle then set up this [webpage](https://meta.yeastrc.org/compgo_emma_montipora/pages/goAnalysisForm.jsp) where protein lists can be entered and a map and raw data of Gene Ontology function are generated. 
@@ -210,7 +210,7 @@ The maps are currently of very low quality and not in a format I am familiar wit
 
 
 
-#Visualization
+# Visualization
 
 
 ![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/analysis/Mcap_alltreats_venn.png)
