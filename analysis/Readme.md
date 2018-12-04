@@ -212,6 +212,9 @@ The maps are currently of very low quality and not in a format I am familiar wit
 
 # Visualization
 
+Venn diagram showing number of proteins unique to each treatment and to every combination of treatments (bleached, non-bleached, inner and outer tissue)
+
+The diagram was made by submitting lists of proteins from each treatment to [Venny](http://bioinfogp.cnb.csic.es/tools/venny/) an online platform for creating Venn diagrams
 
 ![](https://github.com/Jeremyfishb/Jeremy-coral/blob/master/analysis/Mcap_alltreats_venn.png)
 
