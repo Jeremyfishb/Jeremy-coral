@@ -198,6 +198,23 @@ Qspec was ran in Putty through the tephra node of the UWPR genome sciences clust
 
 The output files end with the suffix .txt_qspec and are found [here](https://github.com/Jeremyfishb/Jeremy-coral/tree/master/analysis/qspec)
 
+# Uniprot
+
+[Uniprot](https://www.uniprot.org/) is an online resource of protein sequence and annotation data. We used uniprot to compile a suite of information about the proteins observed in our samples, including:
+
+-protein names
+-gene names
+-Organism (that the protein is associated with- in this case mostly *Stylophora pistillata*)
+-Gene ontology (biological process)
+-Gene ontology (cellular component)
+-Gene ontology (GO)
+-Gene ontology (molecular function)
+-Gene ontology IDs
+-Cross-reference (KEGG)
+-Cross-reference (KO)
+-Cross-reference (Pfam)
+
+To gather this imformation, the entire list of proteins from the fasta results we uploaded on the [Retrieve/ID mapping](https://www.uniprot.org/uploadlists/) page. The from "UniprotKB AC/ID" to "UniprotKB" option was selected, then the list was submitted. After that, The info listed above was selected and downloaded which allowed us to identify 'most' proteins in our samples and continue with Gene Ontology analysis as well as begin to figure out what is going on functionally in each treatment.
 
 # MetaGOmics
 
@@ -207,6 +224,10 @@ MetaGomics is a web-based tool that helps visualize protein functions among trea
 The generated text files can be found [here](https://github.com/Jeremyfishb/Jeremy-coral/tree/master/analysis/GO_analysis_Riffle)
 
 The maps are currently of very low quality and not in a format I am familiar with. They can easily be generated again by entering the significant protein list for each treatment [here](https://meta.yeastrc.org/compgo_emma_montipora/pages/goAnalysisForm.jsp).
+
+# DAVID 
+
+[DAVID](https://david.ncifcrf.gov/) is an online functional annotation tool that work similar to MetaGOmics but requires annotated "omics" information to work. We thought that since we could find annotations via the uniprot platform that we would be able to use DAVID, but for now we are not
 
 
 
