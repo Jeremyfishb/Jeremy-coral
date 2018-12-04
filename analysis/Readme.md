@@ -202,17 +202,19 @@ The output files end with the suffix .txt_qspec and are found [here](https://git
 
 [Uniprot](https://www.uniprot.org/) is an online resource of protein sequence and annotation data. We used uniprot to compile a suite of information about the proteins observed in our samples, including:
 
--protein names
--gene names
--Organism (that the protein is associated with- in this case mostly *Stylophora pistillata*)
--Gene ontology (biological process)
--Gene ontology (cellular component)
--Gene ontology (GO)
--Gene ontology (molecular function)
--Gene ontology IDs
--Cross-reference (KEGG)
--Cross-reference (KO)
--Cross-reference (Pfam)
+
+
+- protein names
+- gene names
+- Organism (that the protein is associated within this case mostly *Stylophora pistillata*)
+- Gene ontology (biological process)
+- Gene ontology (cellular component)
+- Gene ontology (GO)
+- Gene ontology (molecular function)
+- Gene ontology IDs
+- Cross-reference (KEGG)
+- Cross-reference (KO)
+- Cross-reference (Pfam)
 
 To gather this imformation, the entire list of proteins from the fasta results we uploaded on the [Retrieve/ID mapping](https://www.uniprot.org/uploadlists/) page. The from "UniprotKB AC/ID" to "UniprotKB" option was selected, then the list was submitted. After that, The info listed above was selected and downloaded which allowed us to identify 'most' proteins in our samples and continue with Gene Ontology analysis as well as begin to figure out what is going on functionally in each treatment.
 
